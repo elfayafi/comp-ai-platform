@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(node --version:*)",
+      "Bash(bun --version:*)",
+      "Bash(psql:*)",
+      "Bash(docker --version:*)",
+      "Bash(bun run:*)",
+      "Bash(bun install)",
+      "Bash(cat:*)",
+      "Bash(openssl rand:*)",
+      "Bash(next dev:*)",
+      "Bash(bunx next dev:*)",
+      "Bash(node scripts/combine-schemas.js:*)",
+      "Bash(tsc:*)",
+      "Bash(bunx tsc:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

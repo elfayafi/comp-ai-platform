@@ -1,0 +1,42 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "globalDependencies": ["**/.env"],
+  "ui": "tui",
+  "tasks": {
+    "prisma:generate": {
+      "cache": false,
+      "outputs": ["prisma/schema.prisma", "node_modules/.prisma/**"]
+    },
+    "db:generate": {
+      "cache": false,
+      "outputs": ["prisma/schema.prisma", "node_modules/.prisma/**"]
+    },
+    "build": {
+      "dependsOn": ["^build", "prisma:generate"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": [".next/**", "!.next/cache/**", "next-env.d.ts", "dist/**"]
+    },
+    "lint": {
+      "dependsOn": ["^lint"]
+    },
+    "typecheck": {
+      "outputs": ["node_modules/.cache/tsbuildinfo.json"]
+    },
+    "dev": {
+      "inputs": ["$TURBO_DEFAULT$", ".env"],
+      "persistent": true,
+      "cache": false
+    },
+    "clean": {
+      "cache": false
+    },
+    "deps:check": {
+      "cache": false
+    },
+    "test": {
+      "cache": false,
+      "outputs": ["coverage/**"],
+      "inputs": ["$TURBO_DEFAULT$", ".env"]
+    }
+  }
+}

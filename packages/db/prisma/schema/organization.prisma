@@ -1,0 +1,56 @@
+model Organization {
+  id                  String      @id @default(dbgenerated("generate_prefixed_cuid('org'::text)"))
+  name                String
+  slug                String      @unique @default(dbgenerated("generate_prefixed_cuid('slug'::text)"))
+  logo                String?
+  createdAt           DateTime    @default(now())
+  metadata            String?
+  onboarding          Onboarding?
+  website             String?
+  onboardingCompleted Boolean     @default(false)
+  hasAccess           Boolean     @default(false)
+  advancedModeEnabled Boolean     @default(false)
+
+  // FleetDM
+  fleetDmLabelId        Int?
+  isFleetSetupCompleted Boolean @default(false)
+
+  // Employee sync provider (e.g., 'google-workspace', 'rippling')
+  // When set, the scheduled sync will only use this provider
+  employeeSyncProvider String?
+
+  apiKeys                            ApiKey[]
+  auditLog                           AuditLog[]
+  controls                           Control[]
+  frameworkInstances                 FrameworkInstance[]
+  integrations                       Integration[]
+  invitations                        Invitation[]
+  members                            Member[]
+  policy                             Policy[]
+  risk                               Risk[]
+  vendors                            Vendor[]
+  tasks                              Task[]
+  comments                           Comment[]
+  attachments                        Attachment[]
+  trust                              Trust[]
+  context                            Context[]
+  secrets                            Secret[]
+  trustAccessRequests                TrustAccessRequest[]
+  trustNdaAgreements                 TrustNDAAgreement[]
+  trustDocuments                     TrustDocument[]
+  trustResources                     TrustResource[]                     @relation("OrganizationTrustResources")
+  knowledgeBaseDocuments             KnowledgeBaseDocument[]
+  questionnaires                     Questionnaire[]
+  securityQuestionnaireManualAnswers SecurityQuestionnaireManualAnswer[]
+  soaDocuments                       SOADocument[]
+  primaryColor                       String?
+
+  // Integration Platform
+  integrationConnections IntegrationConnection[]
+  integrationOAuthApps   IntegrationOAuthApp[]
+
+  // Browser Automation
+  browserbaseContext BrowserbaseContext?
+
+  @@index([slug])
+}
