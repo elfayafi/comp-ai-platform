@@ -5,6 +5,5 @@
   "devCommand": "turbo dev --filter=@comp/app",
   "installCommand": "bun install",
   "outputDirectory": "apps/app/.next",
-  "framework": "nextjs",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./apps/app"
+  "framework": "nextjs"
 }
