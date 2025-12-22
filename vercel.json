@@ -5,5 +5,5 @@
   "devCommand": "bunx turbo dev --filter=@comp/app",
   "installCommand": "bun install",
   "outputDirectory": "apps/app/.next",
-  "framework": "nextjs"
+  "framework": null
 }
