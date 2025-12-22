@@ -28,9 +28,6 @@ function getPostHogClient(): PostHog | null {
   return null;
 }
 
-// Export the getter function as the primary way to access the client
-export { getPostHogClient };
-
 export async function track(distinctId: string, eventName: string, properties?: Properties) {
   const client = getPostHogClient();
   if (!client) return;
