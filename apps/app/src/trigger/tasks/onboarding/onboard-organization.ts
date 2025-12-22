@@ -21,7 +21,7 @@ export const onboardOrganization = task({
   retry: {
     maxAttempts: 3,
   },
-  run: async (payload: { organizationId: string }) => {
+  run: async (payload: { organizationId: string }): Promise<void> => {
     logger.info(`Start onboarding organization ${payload.organizationId}`);
 
     // Initialize metadata for real-time tracking
