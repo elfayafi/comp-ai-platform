@@ -7,10 +7,12 @@ import './src/env.mjs';
 
 const isStandalone = process.env.NEXT_OUTPUT_STANDALONE === 'true';
 
+const rootDir = path.join(__dirname, '..', '..');
+
 const config: NextConfig = {
   // Ensure Turbopack can import .md files as raw strings during dev
   turbopack: {
-    root: path.join(__dirname, '..', '..'),
+    root: rootDir,
     rules: {
       '*.md': {
         loaders: ['raw-loader'],
@@ -65,7 +67,7 @@ const config: NextConfig = {
     // Reduce build peak memory
     webpackMemoryOptimizations: true,
   },
-  outputFileTracingRoot: path.join(__dirname, '../../'),
+  outputFileTracingRoot: rootDir,
 
   // Reduce memory usage during production build
   productionBrowserSourceMaps: false,
