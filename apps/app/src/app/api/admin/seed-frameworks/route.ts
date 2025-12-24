@@ -71,14 +71,8 @@ const frameworks = [
   },
 ];
 
-export async function POST() {
+async function seedFrameworks() {
   try {
-    // Optional: Add authentication check here
-    // const session = await auth.api.getSession({ headers: await headers() });
-    // if (!session?.user?.isPlatformAdmin) {
-    //   return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-    // }
-
     const results = [];
 
     for (const framework of frameworks) {
@@ -113,4 +107,12 @@ export async function POST() {
       { status: 500 },
     );
   }
+}
+
+export async function GET() {
+  return seedFrameworks();
+}
+
+export async function POST() {
+  return seedFrameworks();
 }
