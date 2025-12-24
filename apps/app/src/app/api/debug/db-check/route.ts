@@ -42,6 +42,8 @@ export async function GET() {
     // Count records in key tables
     let userCount = 0;
     let sessionCount = 0;
+    let frameworkCount = 0;
+    let visibleFrameworkCount = 0;
     try {
       const users = await db.user.count();
       const sessions = await db.session.count();
@@ -49,6 +51,16 @@ export async function GET() {
       sessionCount = sessions;
     } catch (e) {
       // Tables might not exist
+    }
+
+    // Check frameworks
+    try {
+      frameworkCount = await db.frameworkEditorFramework.count();
+      visibleFrameworkCount = await db.frameworkEditorFramework.count({
+        where: { visible: true },
+      });
+    } catch (e) {
+      // Framework table might not exist
     }
 
     return NextResponse.json({
@@ -66,6 +78,8 @@ export async function GET() {
       counts: {
         users: userCount,
         sessions: sessionCount,
+        frameworks: frameworkCount,
+        visibleFrameworks: visibleFrameworkCount,
       },
       timestamp: new Date().toISOString(),
     });
