@@ -42,7 +42,7 @@ const config: NextConfig = {
       ? `${process.env.STATIC_ASSETS_URL}/app`
       : '',
   reactStrictMode: false,
-  transpilePackages: ['@trycompai/db', '@prisma/client'],
+  transpilePackages: ['@compiel/db', '@prisma/client'],
   images: {
     remotePatterns: [
       {
@@ -57,13 +57,13 @@ const config: NextConfig = {
       bodySizeLimit: '15mb',
       allowedOrigins:
         process.env.NODE_ENV === 'production'
-          ? ([process.env.NEXT_PUBLIC_PORTAL_URL, 'https://app.trycomp.ai'].filter(
+          ? ([process.env.NEXT_PUBLIC_PORTAL_URL, 'https://app.trycompiel.com'].filter(
               Boolean,
             ) as string[])
           : undefined,
     },
     authInterrupts: true,
-    optimizePackageImports: ['@trycompai/db', '@trycompai/ui'],
+    optimizePackageImports: ['@compiel/db', '@compiel/ui'],
     // Reduce build peak memory
     webpackMemoryOptimizations: true,
   },

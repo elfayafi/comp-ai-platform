@@ -29,7 +29,7 @@ export const InvitePortalEmail = ({ email, inviteLink, organizationName }: Props
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-400-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-400-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={400}
@@ -40,7 +40,7 @@ export const InvitePortalEmail = ({ email, inviteLink, organizationName }: Props
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-500-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-500-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={500}
@@ -48,7 +48,7 @@ export const InvitePortalEmail = ({ email, inviteLink, organizationName }: Props
           />
         </head>
 
-        <Preview>You've been invited to the Comp AI Portal</Preview>
+        <Preview>You've been invited to the Compiel Portal</Preview>
 
         <Body className="mx-auto my-auto bg-[#fff] font-sans">
           <Container
@@ -57,13 +57,13 @@ export const InvitePortalEmail = ({ email, inviteLink, organizationName }: Props
           >
             <Logo />
             <Heading className="mx-0 my-[30px] p-0 text-center text-[24px] font-normal text-[#121212]">
-              You've been invited to the Comp AI Portal
+              You've been invited to the Compiel Portal
             </Heading>
 
             <Text className="text-[14px] leading-[24px] text-[#121212]">
               {organizationName
-                ? `${organizationName} has invited you to access their Comp AI Portal.`
-                : "You've been invited to access the Comp AI Portal."}
+                ? `${organizationName} has invited you to access their Compiel Portal.`
+                : "You've been invited to access the Compiel Portal."}
             </Text>
             <Section className="mt-[32px] mb-[42px] text-center">
               <Button

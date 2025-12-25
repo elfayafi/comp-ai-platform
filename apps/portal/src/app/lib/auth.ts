@@ -1,5 +1,5 @@
 import { env } from '@/env.mjs';
-import { OTPVerificationEmail, sendEmail, sendInviteMemberEmail } from '@comp/email';
+import { OTPVerificationEmail, sendEmail, sendInviteMemberEmail } from '@compiel/email';
 import { db } from '@db';
 import { betterAuth } from 'better-auth';
 import { prismaAdapter } from 'better-auth/adapters/prisma';
@@ -18,7 +18,7 @@ export const auth = betterAuth({
       generateId: false,
     },
   },
-  trustedOrigins: ['http://localhost:3000', 'https://*.trycomp.ai'],
+  trustedOrigins: ['http://localhost:3000', 'https://*.trycompiel.com'],
   secret: env.AUTH_SECRET!,
   plugins: [
     organization({
@@ -64,7 +64,7 @@ export const auth = betterAuth({
       async sendVerificationOTP({ email, otp }) {
         await sendEmail({
           to: email,
-          subject: 'One-Time Password for Comp AI',
+          subject: 'One-Time Password for Compiel',
           react: OTPVerificationEmail({ email, otp }),
         });
       },

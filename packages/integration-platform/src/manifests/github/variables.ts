@@ -15,8 +15,8 @@ export const targetReposVariable: CheckVariable = {
   label: 'Repositories to monitor',
   type: 'multi-select',
   required: true,
-  placeholder: 'trycompai/comp',
-  helpText: 'Format: {org}/{repo} - e.g., trycompai/comp, microsoft/vscode',
+  placeholder: 'compiel/comp',
+  helpText: 'Format: {org}/{repo} - e.g., compiel/comp, microsoft/vscode',
   fetchOptions: async (ctx) => {
     const orgs = await ctx.fetch<GitHubOrg[]>('/user/orgs');
     const allRepos: Array<{ value: string; label: string }> = [];

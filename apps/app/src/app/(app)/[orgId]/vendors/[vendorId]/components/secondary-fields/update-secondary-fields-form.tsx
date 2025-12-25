@@ -2,9 +2,9 @@
 
 import { SelectAssignee } from '@/components/SelectAssignee';
 import { VENDOR_STATUS_TYPES, VendorStatus } from '@/components/vendor-status';
-import { Button } from '@comp/ui/button';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
+import { Button } from '@compiel/ui/button';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
 import { Member, type User, type Vendor, VendorCategory } from '@db';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Loader2 } from 'lucide-react';

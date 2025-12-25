@@ -3,8 +3,8 @@
 import { ManageIntegrationDialog } from '@/components/integrations/ManageIntegrationDialog';
 import { useIntegrationMutations } from '@/hooks/use-integration-platform';
 import { api } from '@/lib/api-client';
-import { Button } from '@comp/ui/button';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@comp/ui/tabs';
+import { Button } from '@compiel/ui/button';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@compiel/ui/tabs';
 import { Plus, Settings } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';

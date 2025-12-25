@@ -2,13 +2,13 @@
 
 import { api } from '@/lib/api-client';
 import { useDebounce } from '@/hooks/useDebounce';
-import { Button } from '@comp/ui/button';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@comp/ui/tooltip';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@comp/ui/card';
-import { Form, FormControl, FormField, FormItem, FormLabel } from '@comp/ui/form';
-import { Input } from '@comp/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
-import { Switch } from '@comp/ui/switch';
+import { Button } from '@compiel/ui/button';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@compiel/ui/tooltip';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@compiel/ui/card';
+import { Form, FormControl, FormField, FormItem, FormLabel } from '@compiel/ui/form';
+import { Input } from '@compiel/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
+import { Switch } from '@compiel/ui/switch';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { ExternalLink, FileText, Upload, Download, Eye, FileCheck2 } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';

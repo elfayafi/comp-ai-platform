@@ -1,7 +1,7 @@
 import { env } from '@/env.mjs';
-import { MagicLinkEmail, OTPVerificationEmail } from '@comp/email';
-import { sendInviteMemberEmail } from '@comp/email/lib/invite-member';
-import { sendEmail } from '@comp/email/lib/resend';
+import { MagicLinkEmail, OTPVerificationEmail } from '@compiel/email';
+import { sendInviteMemberEmail } from '@compiel/email/lib/invite-member';
+import { sendEmail } from '@compiel/email/lib/resend';
 import { db } from '@db';
 import { dubAnalytics } from '@dub/better-auth';
 import { betterAuth } from 'better-auth';
@@ -58,7 +58,7 @@ export const auth = betterAuth({
   baseURL: process.env.NEXT_PUBLIC_BETTER_AUTH_URL,
   trustedOrigins: process.env.AUTH_TRUSTED_ORIGINS
     ? process.env.AUTH_TRUSTED_ORIGINS.split(',').map((o) => o.trim())
-    : ['http://localhost:3000', 'https://*.trycomp.ai', 'http://localhost:3002'],
+    : ['http://localhost:3000', 'https://*.trycompiel.com', 'http://localhost:3002'],
   emailAndPassword: {
     enabled: true,
   },
@@ -129,13 +129,13 @@ export const auth = betterAuth({
         const protocol = isLocalhost ? 'http' : 'https';
 
         const betterAuthUrl = process.env.NEXT_PUBLIC_BETTER_AUTH_URL;
-        const isDevEnv = betterAuthUrl?.includes('dev.trycomp.ai');
-        const isProdEnv = betterAuthUrl?.includes('app.trycomp.ai');
+        const isDevEnv = betterAuthUrl?.includes('dev.trycompiel.com');
+        const isProdEnv = betterAuthUrl?.includes('app.trycompiel.com');
 
         const domain = isDevEnv
-          ? 'dev.trycomp.ai'
+          ? 'dev.trycompiel.com'
           : isProdEnv
-            ? 'app.trycomp.ai'
+            ? 'app.trycompiel.com'
             : 'localhost:3000';
         const inviteLink = `${protocol}://${domain}/invite/${data.invitation.id}`;
 
@@ -160,7 +160,7 @@ export const auth = betterAuth({
         const urlWithInviteCode = `${url}`;
         await sendEmail({
           to: email,
-          subject: 'Login to Comp AI',
+          subject: 'Login to Compiel',
           react: MagicLinkEmail({
             email,
             url: urlWithInviteCode,
@@ -174,7 +174,7 @@ export const auth = betterAuth({
       async sendVerificationOTP({ email, otp }) {
         await sendEmail({
           to: email,
-          subject: 'One-Time Password for Comp AI',
+          subject: 'One-Time Password for Compiel',
           react: OTPVerificationEmail({ email, otp }),
         });
       },

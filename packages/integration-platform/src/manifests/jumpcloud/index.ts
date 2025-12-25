@@ -18,7 +18,7 @@ export const manifest: IntegrationManifest = {
   description: 'Sync users from JumpCloud as employees for access review and compliance.',
   category: 'Identity & Access',
   logoUrl: 'https://img.logo.dev/jumpcloud.com?token=pk_AZatYxV5QDSfWpRDaBxzRQ',
-  docsUrl: 'https://docs.trycomp.ai/integrations/jumpcloud',
+  docsUrl: 'https://docs.trycompiel.com/integrations/jumpcloud',
 
   // JumpCloud API v1 base URL (used for systemusers endpoint)
   // Note: trailing slash is required for proper URL construction

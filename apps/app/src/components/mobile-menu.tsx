@@ -1,8 +1,8 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Icons } from '@comp/ui/icons';
-import { Sheet, SheetContent } from '@comp/ui/sheet';
+import { Button } from '@compiel/ui/button';
+import { Icons } from '@compiel/ui/icons';
+import { Sheet, SheetContent } from '@compiel/ui/sheet';
 import type { Organization } from '@db';
 import { useState } from 'react';
 import { MainMenu } from './main-menu';

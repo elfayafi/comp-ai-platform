@@ -31,7 +31,7 @@ View comprehensive HTML reports with detailed test results.
 **How to access:**
 
 - After tests complete, the "Deploy Test Results" workflow will run automatically
-- Visit: `https://trycompai.github.io/comp/`
+- Visit: `https://compiel.github.io/comp/`
 - Or check the PR comments for direct links
 
 ### 3. Playwright Trace Viewer (Debug Failures)

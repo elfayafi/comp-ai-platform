@@ -1,7 +1,7 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Alert, AlertDescription, AlertTitle } from '@comp/ui/alert';
+import { Button } from '@compiel/ui/button';
+import { Alert, AlertDescription, AlertTitle } from '@compiel/ui/alert';
 import { ShieldX, ShieldCheck, Loader2, XCircle } from 'lucide-react';
 import { Member, User } from '@db';
 

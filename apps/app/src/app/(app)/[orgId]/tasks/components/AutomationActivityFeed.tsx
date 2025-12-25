@@ -1,8 +1,8 @@
 'use client';
 
-import { Badge } from '@comp/ui/badge';
-import { Card } from '@comp/ui/card';
-import { Separator } from '@comp/ui/separator';
+import { Badge } from '@compiel/ui/badge';
+import { Card } from '@compiel/ui/card';
+import { Separator } from '@compiel/ui/separator';
 import { formatDistanceToNow } from 'date-fns';
 import { Activity, CheckCircle2, Clock, Sparkles, XCircle, Zap } from 'lucide-react';
 import Link from 'next/link';

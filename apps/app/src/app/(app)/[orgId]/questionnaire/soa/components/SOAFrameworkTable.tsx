@@ -1,7 +1,7 @@
 'use client';
 
-import { Card } from '@comp/ui';
-import { Button } from '@comp/ui/button';
+import { Card } from '@compiel/ui';
+import { Button } from '@compiel/ui/button';
 import { ChevronUp, ChevronDown } from 'lucide-react';
 import { useState, useMemo, useEffect } from 'react';
 import { useRouter } from 'next/navigation';

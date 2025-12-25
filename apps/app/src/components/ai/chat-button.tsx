@@ -1,6 +1,6 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import { useQueryState } from 'nuqs';
 
 export function AssistantButton() {

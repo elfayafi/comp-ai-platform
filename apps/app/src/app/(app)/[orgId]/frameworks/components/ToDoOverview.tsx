@@ -1,10 +1,10 @@
 'use client';
 
 import { publishAllPoliciesAction } from '@/actions/policies/publish-all';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@comp/ui/card';
-import { ScrollArea } from '@comp/ui/scroll-area';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@comp/ui/tabs';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@compiel/ui/card';
+import { ScrollArea } from '@compiel/ui/scroll-area';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@compiel/ui/tabs';
 import { Policy, Task } from '@db';
 import {
   ArrowRight,

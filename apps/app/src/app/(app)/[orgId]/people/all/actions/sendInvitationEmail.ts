@@ -1,7 +1,7 @@
 'use server';
 
 import { auth } from '@/utils/auth';
-import { sendInviteMemberEmail } from '@comp/email/lib/invite-member';
+import { sendInviteMemberEmail } from '@compiel/email/lib/invite-member';
 import { db } from '@db';
 import { headers } from 'next/headers';
 
@@ -64,10 +64,10 @@ export const sendInvitationEmailToExistingMember = async ({
     const protocol = isLocalhost ? 'http' : 'https';
 
     const betterAuthUrl = process.env.NEXT_PUBLIC_BETTER_AUTH_URL;
-    const isDevEnv = betterAuthUrl?.includes('dev.trycomp.ai');
-    const isProdEnv = betterAuthUrl?.includes('app.trycomp.ai');
+    const isDevEnv = betterAuthUrl?.includes('dev.trycompiel.com');
+    const isProdEnv = betterAuthUrl?.includes('app.trycompiel.com');
 
-    const domain = isDevEnv ? 'dev.trycomp.ai' : isProdEnv ? 'app.trycomp.ai' : 'localhost:3000';
+    const domain = isDevEnv ? 'dev.trycompiel.com' : isProdEnv ? 'app.trycompiel.com' : 'localhost:3000';
     const inviteLink = `${protocol}://${domain}/invite/${invitation.id}`;
 
     // Send the invitation email

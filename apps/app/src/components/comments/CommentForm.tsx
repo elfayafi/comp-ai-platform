@@ -1,7 +1,7 @@
 'use client';
 
 import { useComments, useCommentWithAttachments } from '@/hooks/use-comments-api';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -9,8 +9,8 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
-import { Textarea } from '@comp/ui/textarea';
+} from '@compiel/ui/dialog';
+import { Textarea } from '@compiel/ui/textarea';
 import type { CommentEntityType } from '@db';
 import { Camera, FileIcon, Loader2, Paperclip, X } from 'lucide-react';
 import type React from 'react';

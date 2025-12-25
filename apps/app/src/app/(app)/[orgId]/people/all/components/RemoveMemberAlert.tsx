@@ -9,7 +9,7 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from '@comp/ui/alert-dialog';
+} from '@compiel/ui/alert-dialog';
 
 interface RemoveMemberAlertProps {
   open: boolean;

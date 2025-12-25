@@ -1,8 +1,8 @@
 'use client';
 
 import { authClient } from '@/utils/auth-client';
-import { Button } from '@comp/ui/button';
-import { Icons } from '@comp/ui/icons';
+import { Button } from '@compiel/ui/button';
+import { Icons } from '@compiel/ui/icons';
 import { Loader2 } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';

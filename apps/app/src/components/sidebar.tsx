@@ -4,7 +4,7 @@ import { getOrganizations } from '@/data/getOrganizations';
 import { auth } from '@/utils/auth';
 import { GetObjectCommand } from '@aws-sdk/client-s3';
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
-import { cn } from '@comp/ui/cn';
+import { cn } from '@compiel/ui/cn';
 import { db, type Organization, Role } from '@db';
 import { cookies, headers } from 'next/headers';
 import { MainMenu } from './main-menu';

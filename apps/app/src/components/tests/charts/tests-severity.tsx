@@ -1,8 +1,8 @@
 'use client';
 
 import { PieChart } from '@/components/ui/pie-chart';
-import { Card, CardContent, CardHeader, CardTitle } from '@comp/ui/card';
-import { cn } from '@comp/ui/cn';
+import { Card, CardContent, CardHeader, CardTitle } from '@compiel/ui/card';
+import { cn } from '@compiel/ui/cn';
 
 interface Props {
   totalTests: number;

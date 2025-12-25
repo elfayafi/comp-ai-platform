@@ -6,10 +6,10 @@ import * as React from 'react';
 import type { DateRange } from 'react-day-picker';
 
 import { formatDate } from '@/lib/format';
-import { Button } from '@comp/ui/button';
-import { Calendar } from '@comp/ui/calendar';
-import { Popover, PopoverContent, PopoverTrigger } from '@comp/ui/popover';
-import { Separator } from '@comp/ui/separator';
+import { Button } from '@compiel/ui/button';
+import { Calendar } from '@compiel/ui/calendar';
+import { Popover, PopoverContent, PopoverTrigger } from '@compiel/ui/popover';
+import { Separator } from '@compiel/ui/separator';
 
 type DateSelection = Date[] | DateRange;
 

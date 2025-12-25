@@ -1,10 +1,10 @@
 'use client';
 
 import { updateVendorInherentRisk } from '@/app/(app)/[orgId]/vendors/[vendorId]/actions/update-vendor-inherent-risk';
-import { Button } from '@comp/ui/button';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
-import { useToast } from '@comp/ui/use-toast';
+import { Button } from '@compiel/ui/button';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
+import { useToast } from '@compiel/ui/use-toast';
 import { Impact, Likelihood } from '@db';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useQueryState } from 'nuqs';

@@ -11,9 +11,9 @@ import { formatDate } from '@/lib/format';
 import { generateId } from '@/lib/id';
 import { getFiltersStateParser } from '@/lib/parsers';
 import type { ExtendedColumnFilter, FilterOperator } from '@/types/data-table';
-import { Button } from '@comp/ui/button';
-import { Calendar } from '@comp/ui/calendar';
-import { cn } from '@comp/ui/cn';
+import { Button } from '@compiel/ui/button';
+import { Calendar } from '@compiel/ui/calendar';
+import { cn } from '@compiel/ui/cn';
 import {
   Command,
   CommandEmpty,
@@ -21,10 +21,10 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from '@comp/ui/command';
-import { Input } from '@comp/ui/input';
-import { Popover, PopoverContent, PopoverTrigger } from '@comp/ui/popover';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
+} from '@compiel/ui/command';
+import { Input } from '@compiel/ui/input';
+import { Popover, PopoverContent, PopoverTrigger } from '@compiel/ui/popover';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
 import { DataTableRangeFilter } from './data-table-range-filter';
 
 const FILTERS_KEY = 'filters';

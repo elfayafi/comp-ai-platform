@@ -1,8 +1,8 @@
 'use client';
 
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@comp/ui/card';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@compiel/ui/card';
 import { EvidenceAutomationRun, EvidenceAutomationRunStatus } from '@db';
 import { formatDistanceToNow } from 'date-fns';
 import { Activity, ChevronDown } from 'lucide-react';

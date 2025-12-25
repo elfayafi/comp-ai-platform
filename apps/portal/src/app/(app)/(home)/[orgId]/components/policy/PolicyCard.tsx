@@ -1,6 +1,6 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Card,
   CardContent,
@@ -8,7 +8,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@comp/ui/card';
+} from '@compiel/ui/card';
 import type { Member, Policy } from '@db';
 import type { JSONContent } from '@tiptap/react';
 import { ArrowRight, Check } from 'lucide-react';

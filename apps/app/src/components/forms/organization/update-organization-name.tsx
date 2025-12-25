@@ -2,7 +2,7 @@
 
 import { updateOrganizationNameAction } from '@/actions/organization/update-organization-name-action';
 import { organizationNameSchema } from '@/actions/schema';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Card,
   CardContent,
@@ -10,9 +10,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@comp/ui/card';
-import { Form, FormControl, FormField, FormItem, FormMessage } from '@comp/ui/form';
-import { Input } from '@comp/ui/input';
+} from '@compiel/ui/card';
+import { Form, FormControl, FormField, FormItem, FormMessage } from '@compiel/ui/form';
+import { Input } from '@compiel/ui/input';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Loader2 } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';

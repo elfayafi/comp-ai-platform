@@ -1,6 +1,6 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -8,7 +8,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
+} from '@compiel/ui/dialog';
 import confetti from 'canvas-confetti';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import { useQueryState } from 'nuqs';

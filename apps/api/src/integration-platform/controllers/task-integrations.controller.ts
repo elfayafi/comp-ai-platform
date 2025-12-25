@@ -15,7 +15,7 @@ import {
   runAllChecks,
   type CheckRunResult,
   type OAuthConfig,
-} from '@comp/integration-platform';
+} from '@compiel/integration-platform';
 import { ConnectionRepository } from '../repositories/connection.repository';
 import { ProviderRepository } from '../repositories/provider.repository';
 import { CheckRunRepository } from '../repositories/check-run.repository';

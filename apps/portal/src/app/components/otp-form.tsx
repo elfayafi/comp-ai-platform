@@ -1,8 +1,8 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Form, FormControl, FormField, FormItem, FormMessage } from '@comp/ui/form';
-import { InputOTP, InputOTPGroup, InputOTPSlot } from '@comp/ui/input-otp';
+import { Button } from '@compiel/ui/button';
+import { Form, FormControl, FormField, FormItem, FormMessage } from '@compiel/ui/form';
+import { InputOTP, InputOTPGroup, InputOTPSlot } from '@compiel/ui/input-otp';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Loader2 } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';

@@ -1,6 +1,6 @@
 {
-  "name": "@trycompai/analytics",
-  "description": "Analytics utilities using PostHog for Comp AI",
+  "name": "@compiel/analytics",
+  "description": "Analytics utilities using PostHog for Compiel",
   "version": "1.0.0",
   "dependencies": {
     "posthog-js": "^1.236.6",
@@ -29,7 +29,7 @@
   ],
   "keywords": [
     "analytics",
-    "comp-ai",
+    "compiel",
     "posthog",
     "tracking"
   ],
@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comp-ai/comp.git",
+    "url": "git+https://github.com/compiel/comp.git",
     "directory": "packages/analytics"
   },
   "scripts": {

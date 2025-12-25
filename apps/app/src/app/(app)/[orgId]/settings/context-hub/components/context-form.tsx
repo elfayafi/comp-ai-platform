@@ -2,11 +2,11 @@
 
 import { createContextEntryAction } from '@/actions/context-hub/create-context-entry-action';
 import { updateContextEntryAction } from '@/actions/context-hub/update-context-entry-action';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@comp/ui/accordion';
-import { Button } from '@comp/ui/button';
-import { Input } from '@comp/ui/input';
-import { Label } from '@comp/ui/label';
-import { Textarea } from '@comp/ui/textarea';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@compiel/ui/accordion';
+import { Button } from '@compiel/ui/button';
+import { Input } from '@compiel/ui/input';
+import { Label } from '@compiel/ui/label';
+import { Textarea } from '@compiel/ui/textarea';
 import type { Context } from '@db';
 import { Loader2 } from 'lucide-react';
 import { useTransition } from 'react';

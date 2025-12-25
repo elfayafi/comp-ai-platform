@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException, Logger } from '@nestjs/common';
-import { db } from '@trycompai/db';
-import type { Prisma } from '@trycompai/db';
+import { db } from '@compiel/db';
+import type { Prisma } from '@compiel/db';
 import type { CreatePolicyDto } from './dto/create-policy.dto';
 import type { UpdatePolicyDto } from './dto/update-policy.dto';
 

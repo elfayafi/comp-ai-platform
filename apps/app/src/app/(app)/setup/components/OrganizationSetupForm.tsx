@@ -2,7 +2,7 @@
 
 import { AnimatedWrapper } from '@/components/animated-wrapper';
 import { LogoSpinner } from '@/components/logo-spinner';
-import { Form, FormControl, FormField, FormItem, FormMessage } from '@comp/ui/form';
+import { Form, FormControl, FormField, FormItem, FormMessage } from '@compiel/ui/form';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Balancer from 'react-wrap-balancer';

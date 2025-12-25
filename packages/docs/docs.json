@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Comp AI - Documentation",
+  "name": "Compiel - Documentation",
   "colors": {
     "primary": "#0E0E10",
     "light": "#E6E6E6",
@@ -98,20 +98,20 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hello@trycomp.ai"
+        "href": "mailto:hello@trycompiel.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Get started",
-      "href": "https://trycomp.ai"
+      "href": "https://trycompiel.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/trycompai",
-      "github": "https://github.com/trycompai/comp",
-      "linkedin": "https://linkedin.com/company/trycompai"
+      "x": "https://x.com/compiel",
+      "github": "https://github.com/compiel/comp",
+      "linkedin": "https://linkedin.com/company/compiel"
     }
   }
 }

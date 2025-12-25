@@ -1,6 +1,6 @@
 'use client';
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@comp/ui/tabs';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@compiel/ui/tabs';
 import { useState, useTransition } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';

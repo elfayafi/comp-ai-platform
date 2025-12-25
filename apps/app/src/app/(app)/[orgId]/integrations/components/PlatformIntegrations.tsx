@@ -9,17 +9,17 @@ import {
   useIntegrationMutations,
   useIntegrationProviders,
 } from '@/hooks/use-integration-platform';
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@comp/ui/card';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@compiel/ui/card';
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
-import { Skeleton } from '@comp/ui/skeleton';
+} from '@compiel/ui/dialog';
+import { Skeleton } from '@compiel/ui/skeleton';
 import {
   AlertCircle,
   AlertTriangle,

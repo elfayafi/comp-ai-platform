@@ -24,7 +24,7 @@ interface Props {
 }
 
 export const TaskReminderEmail = ({ email, name, dueDate, recordId }: Props) => {
-  const link = `${process.env.NEXT_PUBLIC_APP_URL ?? 'https://app.trycomp.ai'}${recordId}`;
+  const link = `${process.env.NEXT_PUBLIC_APP_URL ?? 'https://app.trycompiel.com'}${recordId}`;
 
   return (
     <Html>
@@ -34,7 +34,7 @@ export const TaskReminderEmail = ({ email, name, dueDate, recordId }: Props) => 
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-400-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-400-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={400}
@@ -45,7 +45,7 @@ export const TaskReminderEmail = ({ email, name, dueDate, recordId }: Props) => 
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-500-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-500-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={500}
@@ -53,7 +53,7 @@ export const TaskReminderEmail = ({ email, name, dueDate, recordId }: Props) => 
           />
         </head>
 
-        <Preview>Comp AI - Task Reminder</Preview>
+        <Preview>Compiel - Task Reminder</Preview>
 
         <Body className="mx-auto my-auto bg-[#fff] font-sans">
           <Container

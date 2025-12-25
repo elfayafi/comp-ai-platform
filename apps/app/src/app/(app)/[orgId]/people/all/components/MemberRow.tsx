@@ -5,9 +5,9 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useRef, useState } from 'react';
 
-import { Avatar, AvatarFallback, AvatarImage } from '@comp/ui/avatar';
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
+import { Avatar, AvatarFallback, AvatarImage } from '@compiel/ui/avatar';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -16,14 +16,14 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@comp/ui/dialog';
+} from '@compiel/ui/dialog';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@comp/ui/dropdown-menu';
-import { Label } from '@comp/ui/label';
+} from '@compiel/ui/dropdown-menu';
+import { Label } from '@compiel/ui/label';
 import type { Role } from '@db';
 
 import { toast } from 'sonner';

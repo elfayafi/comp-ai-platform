@@ -4,7 +4,7 @@ import {
   VendorStatus,
   Likelihood,
   Impact,
-} from '@trycompai/db';
+} from '@compiel/db';
 
 export class VendorResponseDto {
   @ApiProperty({

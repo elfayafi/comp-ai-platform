@@ -1,14 +1,14 @@
 'use client';
 
 import { StatusIndicator } from '@/components/status-indicator';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@comp/ui/dropdown-menu';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@comp/ui/tabs';
+} from '@compiel/ui/dropdown-menu';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@compiel/ui/tabs';
 import type {
   Control,
   FrameworkEditorFramework,

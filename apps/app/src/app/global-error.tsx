@@ -1,6 +1,6 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import NextError from 'next/error';
 import Link from 'next/link';
 

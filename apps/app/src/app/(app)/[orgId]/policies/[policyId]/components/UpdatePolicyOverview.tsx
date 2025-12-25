@@ -4,9 +4,9 @@ import { submitPolicyForApprovalAction } from '@/actions/policies/submit-policy-
 import { updatePolicyFormAction } from '@/actions/policies/update-policy-form-action';
 import { SelectAssignee } from '@/components/SelectAssignee';
 import { StatusIndicator } from '@/components/status-indicator';
-import { Button } from '@comp/ui/button';
-import { cn } from '@comp/ui/cn';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
+import { Button } from '@compiel/ui/button';
+import { cn } from '@compiel/ui/cn';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
 import { Departments, Frequency, Member, type Policy, PolicyStatus, User } from '@db';
 import { format } from 'date-fns';
 import { CalendarIcon, Loader2 } from 'lucide-react';

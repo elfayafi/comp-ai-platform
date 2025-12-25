@@ -1,10 +1,10 @@
 'use client';
 
 import { authClient } from '@/app/lib/auth-client';
-import { Button } from '@comp/ui/button';
-import { cn } from '@comp/ui/cn';
-import { Form, FormControl, FormField, FormItem } from '@comp/ui/form';
-import { Input } from '@comp/ui/input';
+import { Button } from '@compiel/ui/button';
+import { cn } from '@compiel/ui/cn';
+import { Form, FormControl, FormField, FormItem } from '@compiel/ui/form';
+import { Input } from '@compiel/ui/input';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { ArrowRight, Loader2 } from 'lucide-react';
 import { useState } from 'react';

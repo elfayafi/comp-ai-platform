@@ -1,6 +1,6 @@
-import { Icons } from '@comp/ui/icons';
-import { Popover, PopoverContent, PopoverTrigger } from '@comp/ui/popover';
-import { Textarea as ShadcnTextarea } from '@comp/ui/textarea';
+import { Icons } from '@compiel/ui/icons';
+import { Popover, PopoverContent, PopoverTrigger } from '@compiel/ui/popover';
+import { Textarea as ShadcnTextarea } from '@compiel/ui/textarea';
 import { useRouter } from 'next/navigation';
 
 interface InputProps {
@@ -23,7 +23,7 @@ export const ChatTextarea = ({ input, handleInputChange, isLoading }: InputProps
         className="mb-2 h-12 min-h-12 resize-none  pt-3"
         value={input}
         autoFocus
-        placeholder={'Ask Comp AI something...'}
+        placeholder={'Ask Compiel something...'}
         onChange={handleInputChange}
         onKeyDown={(e) => {
           if (e.key === 'Enter' && !e.shiftKey) {
@@ -59,7 +59,7 @@ export const ChatTextarea = ({ input, handleInputChange, isLoading }: InputProps
                   onClick={() => handleOpenUrl('https://x.com/compai')}
                 >
                   <Icons.X className="h-[16px] w-[16px]" />
-                  <span>Follow Comp AI</span>
+                  <span>Follow Compiel</span>
                 </button>
               </li>
               <li>

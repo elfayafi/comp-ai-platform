@@ -1,5 +1,5 @@
-import { FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { Input } from '@comp/ui/input';
+import { FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { Input } from '@compiel/ui/input';
 import type { Control } from 'react-hook-form';
 import type { EmployeeFormValues } from '../EmployeeDetails';
 

@@ -1,9 +1,9 @@
 'use client';
 
 import { useOrganizationMembers } from '@/hooks/use-organization-members';
-import { Avatar, AvatarFallback, AvatarImage } from '@comp/ui/avatar';
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
+import { Avatar, AvatarFallback, AvatarImage } from '@compiel/ui/avatar';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
 import type { Departments, Member, Task, TaskFrequency, TaskStatus, User } from '@db';
 import { format } from 'date-fns';
 import Link from 'next/link';

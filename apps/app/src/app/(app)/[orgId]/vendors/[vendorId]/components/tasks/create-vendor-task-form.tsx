@@ -1,14 +1,14 @@
 'use client';
 
 import { SelectAssignee } from '@/components/SelectAssignee';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@comp/ui/accordion';
-import { Button } from '@comp/ui/button';
-import { Calendar } from '@comp/ui/calendar';
-import { cn } from '@comp/ui/cn';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { Input } from '@comp/ui/input';
-import { Popover, PopoverContent, PopoverTrigger } from '@comp/ui/popover';
-import { Textarea } from '@comp/ui/textarea';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@compiel/ui/accordion';
+import { Button } from '@compiel/ui/button';
+import { Calendar } from '@compiel/ui/calendar';
+import { cn } from '@compiel/ui/cn';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { Input } from '@compiel/ui/input';
+import { Popover, PopoverContent, PopoverTrigger } from '@compiel/ui/popover';
+import { Textarea } from '@compiel/ui/textarea';
 import { Member, User } from '@db';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { format } from 'date-fns';

@@ -3,12 +3,12 @@
 import type { Column } from '@tanstack/react-table';
 import * as React from 'react';
 
-import { Button } from '@comp/ui/button';
-import { cn } from '@comp/ui/cn';
-import { Input } from '@comp/ui/input';
-import { Popover, PopoverContent, PopoverTrigger } from '@comp/ui/popover';
-import { Separator } from '@comp/ui/separator';
-import { Slider } from '@comp/ui/slider';
+import { Button } from '@compiel/ui/button';
+import { cn } from '@compiel/ui/cn';
+import { Input } from '@compiel/ui/input';
+import { Popover, PopoverContent, PopoverTrigger } from '@compiel/ui/popover';
+import { Separator } from '@compiel/ui/separator';
+import { Slider } from '@compiel/ui/slider';
 import { PlusCircle, XCircle } from 'lucide-react';
 
 interface Range {

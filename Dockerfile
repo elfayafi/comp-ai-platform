@@ -8,7 +8,7 @@ WORKDIR /app
 # Copy workspace configuration
 COPY package.json bun.lock ./
 
-# Copy package.json files for all packages (exclude local db; use published @trycompai/db)
+# Copy package.json files for all packages (exclude local db; use published @compiel/db)
 COPY packages/kv/package.json ./packages/kv/
 COPY packages/ui/package.json ./packages/ui/
 COPY packages/email/package.json ./packages/email/
@@ -36,18 +36,18 @@ WORKDIR /app
 COPY packages/db/prisma ./packages/db/prisma
 
 # Create minimal package.json for Prisma runtime (also used by seeder)
-RUN echo '{"name":"migrator","type":"module","dependencies":{"prisma":"^6.14.0","@prisma/client":"^6.14.0","@trycompai/db":"^1.3.4","zod":"^3.25.7"}}' > package.json
+RUN echo '{"name":"migrator","type":"module","dependencies":{"prisma":"^6.14.0","@prisma/client":"^6.14.0","@compiel/db":"^1.3.4","zod":"^3.25.7"}}' > package.json
 
 # Install ONLY Prisma dependencies
 RUN bun install
 
 # Ensure Prisma can find migrations relative to the published schema path
 # We copy the local migrations into the published package's dist directory
-RUN cp -R packages/db/prisma/migrations node_modules/@trycompai/db/dist/
+RUN cp -R packages/db/prisma/migrations node_modules/@compiel/db/dist/
 
-# Run migrations against the combined schema published by @trycompai/db
-RUN echo "Running migrations against @trycompai/db combined schema"
-CMD ["bunx", "prisma", "migrate", "deploy", "--schema=node_modules/@trycompai/db/dist/schema.prisma"]
+# Run migrations against the combined schema published by @compiel/db
+RUN echo "Running migrations against @compiel/db combined schema"
+CMD ["bunx", "prisma", "migrate", "deploy", "--schema=node_modules/@compiel/db/dist/schema.prisma"]
 
 # =============================================================================
 # STAGE 3: App Builder

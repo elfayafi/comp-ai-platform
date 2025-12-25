@@ -1,5 +1,5 @@
-import { Badge } from '@comp/ui/badge';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@comp/ui/card';
+import { Badge } from '@compiel/ui/badge';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@compiel/ui/card';
 import type { Context } from '@db';
 
 export async function ContextHubList({ entries }: { entries: Context[] }) {
@@ -8,7 +8,7 @@ export async function ContextHubList({ entries }: { entries: Context[] }) {
       <CardHeader>
         <CardTitle>Context</CardTitle>
         <CardDescription>
-          You can add context to the Comp AI platform to help it better understand your
+          You can add context to the Compiel platform to help it better understand your
           organization/processes.
         </CardDescription>
       </CardHeader>

@@ -9,15 +9,15 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from '@comp/ui/alert-dialog';
-import { Button } from '@comp/ui/button';
+} from '@compiel/ui/alert-dialog';
+import { Button } from '@compiel/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@comp/ui/dropdown-menu';
-import { Input } from '@comp/ui/input';
+} from '@compiel/ui/dropdown-menu';
+import { Input } from '@compiel/ui/input';
 import {
   ChevronDown,
   Download,

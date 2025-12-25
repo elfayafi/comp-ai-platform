@@ -34,7 +34,7 @@ BUlQz5yXrpKz0aWVNG8k3kO5BcSd1iebPQ4D0xCnjVE=
 ### 5. NEXT_PUBLIC_PORTAL_URL
 **Required**: Yes (z.string())
 ```
-https://comp-ai-platform-api.vercel.app
+https://compiel-platform-api.vercel.app
 ```
 
 ---
@@ -43,9 +43,9 @@ https://comp-ai-platform-api.vercel.app
 
 ### For Better Auth to Work
 ```
-BETTER_AUTH_URL=https://comp-ai-platform-api.vercel.app
-NEXT_PUBLIC_BETTER_AUTH_URL=https://comp-ai-platform-api.vercel.app
-AUTH_TRUSTED_ORIGINS=https://*.vercel.app,https://comp-ai-platform-api.vercel.app,http://localhost:3000
+BETTER_AUTH_URL=https://compiel-platform-api.vercel.app
+NEXT_PUBLIC_BETTER_AUTH_URL=https://compiel-platform-api.vercel.app
+AUTH_TRUSTED_ORIGINS=https://*.vercel.app,https://compiel-platform-api.vercel.app,http://localhost:3000
 ```
 
 ⚠️ **CRITICAL for CORS**: `AUTH_TRUSTED_ORIGINS` must include all Vercel deployment URLs to prevent CORS errors
@@ -103,12 +103,12 @@ DATABASE_URL=postgresql://postgres.wtqvjcmjkpjaokoxwutc:7Mxbvuk8fCDkSh0g@aws-1-e
 AUTH_SECRET=BUlQz5yXrpKz0aWVNG8k3kO5BcSd1iebPQ4D0xCnjVE=
 RESEND_API_KEY=re_2GQprEXQ_7SZeYXXgB3BTE5S4wbcoDqrU
 REVALIDATION_SECRET=2tDOTt37D3qWYmdRVrE6Ef1TIxv/ubMTlTzTFuUGjU8=
-NEXT_PUBLIC_PORTAL_URL=https://comp-ai-platform-api.vercel.app
+NEXT_PUBLIC_PORTAL_URL=https://compiel-platform-api.vercel.app
 
 # CRITICAL - For Auth System
-BETTER_AUTH_URL=https://comp-ai-platform-api.vercel.app
-NEXT_PUBLIC_BETTER_AUTH_URL=https://comp-ai-platform-api.vercel.app
-AUTH_TRUSTED_ORIGINS=https://*.vercel.app,https://comp-ai-platform-api.vercel.app,http://localhost:3000
+BETTER_AUTH_URL=https://compiel-platform-api.vercel.app
+NEXT_PUBLIC_BETTER_AUTH_URL=https://compiel-platform-api.vercel.app
+AUTH_TRUSTED_ORIGINS=https://*.vercel.app,https://compiel-platform-api.vercel.app,http://localhost:3000
 DIRECT_URL=postgresql://postgres:7Mxbvuk8fCDkSh0g@wtqvjcmjkpjaokoxwutc.supabase.co:5432/postgres
 SECRET_KEY=E1kiJTAt1Yy5GbnhrJAaJBUqRuZ3+7eGOsMAKPFRKQ4=
 

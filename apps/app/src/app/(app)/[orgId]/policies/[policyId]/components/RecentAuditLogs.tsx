@@ -1,14 +1,14 @@
-import { Avatar, AvatarFallback, AvatarImage } from '@comp/ui/avatar';
-import { Badge } from '@comp/ui/badge';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@comp/ui/card';
-import { cn } from '@comp/ui/cn';
-import { ScrollArea } from '@comp/ui/scroll-area';
+import { Avatar, AvatarFallback, AvatarImage } from '@compiel/ui/avatar';
+import { Badge } from '@compiel/ui/badge';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@compiel/ui/card';
+import { cn } from '@compiel/ui/cn';
+import { ScrollArea } from '@compiel/ui/scroll-area';
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@comp/ui/tooltip';
+} from '@compiel/ui/tooltip';
 import { AuditLog, AuditLogEntityType } from '@db';
 import { format } from 'date-fns';
 import {

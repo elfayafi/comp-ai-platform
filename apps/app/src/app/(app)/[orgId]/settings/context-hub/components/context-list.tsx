@@ -11,8 +11,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '@comp/ui/alert-dialog';
-import { Button } from '@comp/ui/button';
+} from '@compiel/ui/alert-dialog';
+import { Button } from '@compiel/ui/button';
 import {
   Card,
   CardContent,
@@ -20,7 +20,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@comp/ui/card';
+} from '@compiel/ui/card';
 import {
   Dialog,
   DialogContent,
@@ -28,7 +28,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@comp/ui/dialog';
+} from '@compiel/ui/dialog';
 import type { Context } from '@db';
 import { Pencil, Plus } from 'lucide-react';
 import { useState } from 'react';

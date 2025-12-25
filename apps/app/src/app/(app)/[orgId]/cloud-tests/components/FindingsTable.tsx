@@ -1,8 +1,8 @@
 'use client';
 
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@comp/ui/table';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@compiel/ui/table';
 import { ChevronDown, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
 

@@ -1,10 +1,10 @@
 'use client';
 
 import { SelectAssignee } from '@/components/SelectAssignee';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@comp/ui/card';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@compiel/ui/card';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
 import type { Member, Task, User } from '@db';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { ArrowRightIcon, Loader2 } from 'lucide-react';

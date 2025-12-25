@@ -5731,7 +5731,7 @@
     },
     "/v1/device-agent/mac": {
       "get": {
-        "description": "Downloads the Comp AI Device Agent installer for macOS as a DMG file. The agent helps monitor device compliance and security policies. Supports both API key authentication (X-API-Key header) and session authentication (cookies + X-Organization-Id header).",
+        "description": "Downloads the Compiel Device Agent installer for macOS as a DMG file. The agent helps monitor device compliance and security policies. Supports both API key authentication (X-API-Key header) and session authentication (cookies + X-Organization-Id header).",
         "operationId": "DeviceAgentController_downloadMacAgent_v1",
         "parameters": [
           {
@@ -5761,7 +5761,7 @@
                 "description": "Indicates file should be downloaded with specific filename",
                 "schema": {
                   "type": "string",
-                  "example": "attachment; filename=\"Comp AI Agent-1.0.0-arm64.dmg\""
+                  "example": "attachment; filename=\"Compiel Agent-1.0.0-arm64.dmg\""
                 }
               },
               "Content-Type": {
@@ -5787,7 +5787,7 @@
     },
     "/v1/device-agent/windows": {
       "get": {
-        "description": "Downloads a ZIP package containing the Comp AI Device Agent installer for Windows, along with setup scripts and instructions. The package includes an MSI installer, setup batch script customized for the organization and user, and a README with installation instructions. Supports both API key authentication (X-API-Key header) and session authentication (cookies + X-Organization-Id header).",
+        "description": "Downloads a ZIP package containing the Compiel Device Agent installer for Windows, along with setup scripts and instructions. The package includes an MSI installer, setup batch script customized for the organization and user, and a README with installation instructions. Supports both API key authentication (X-API-Key header) and session authentication (cookies + X-Organization-Id header).",
         "operationId": "DeviceAgentController_downloadWindowsAgent_v1",
         "parameters": [
           {
@@ -11599,7 +11599,7 @@
       "description": "Local API Server"
     },
     {
-      "url": "https://api.trycomp.ai",
+      "url": "https://api.trycompiel.com",
       "description": "API Server"
     }
   ],

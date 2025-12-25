@@ -3,7 +3,7 @@ import {
   Injectable,
   InternalServerErrorException,
 } from '@nestjs/common';
-import { db } from '@trycompai/db';
+import { db } from '@compiel/db';
 import { TaskResponseDto } from './dto/task-responses.dto';
 
 @Injectable()

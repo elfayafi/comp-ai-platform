@@ -7,8 +7,8 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from '@comp/ui/alert-dialog';
-import { Button } from '@comp/ui/button';
+} from '@compiel/ui/alert-dialog';
+import { Button } from '@compiel/ui/button';
 import { Trash2 } from 'lucide-react';
 import * as React from 'react';
 import { toast } from 'sonner';

@@ -28,7 +28,7 @@ L'erreur 500 sur `/setup` après authentification Microsoft est causée par l'ab
 
 1. Une fois connecté, cliquez sur **"Create Database"**
 2. Configurez:
-   - **Name**: `comp-ai-production` (ou votre nom préféré)
+   - **Name**: `compiel-production` (ou votre nom préféré)
    - **Type**: **Global** (recommandé pour meilleure latence mondiale)
      - ou **Regional** si vous voulez spécifier une région (ex: EU West)
    - **Region**:
@@ -63,7 +63,7 @@ AXyzAbC123...longtoken...
 
 ### Méthode 1: Via l'interface Vercel
 
-1. Allez sur: https://vercel.com/[your-team]/comp-ai-platform-api/settings/environment-variables
+1. Allez sur: https://vercel.com/[your-team]/compiel-platform-api/settings/environment-variables
 
 2. Ajoutez **UPSTASH_REDIS_REST_URL**:
    - Name: `UPSTASH_REDIS_REST_URL`
@@ -119,7 +119,7 @@ git push
 ## Tester après déploiement
 
 ### 1. Authentifiez-vous
-Allez sur: https://comp-ai-platform-api.vercel.app/auth
+Allez sur: https://compiel-platform-api.vercel.app/auth
 
 Connectez-vous avec Microsoft (ou Google/Email)
 

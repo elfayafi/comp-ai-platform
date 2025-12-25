@@ -19,19 +19,19 @@ Open: https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsLi
 ### 1.2 Create New Registration
 1. Click **"New registration"**
 2. Fill in the details:
-   - **Name**: `Comp AI Platform` (or your preferred name)
+   - **Name**: `Compiel Platform` (or your preferred name)
    - **Supported account types**: Select **"Accounts in any organizational directory and personal Microsoft accounts"**
      - This allows both Office 365 work accounts AND personal Microsoft accounts
    - **Redirect URI**:
      - Platform: **Web**
-     - URL: `https://comp-ai-platform-api.vercel.app/api/auth/callback/microsoft`
+     - URL: `https://compiel-platform-api.vercel.app/api/auth/callback/microsoft`
 3. Click **"Register"**
 
 ### 1.3 Add Additional Redirect URIs
 After registration, go to **"Authentication"** in the left sidebar:
 1. Under "Web" redirect URIs, click **"Add URI"**
 2. Add these URIs:
-   - `https://comp-ai-platform-api.vercel.app/api/auth/callback/microsoft` (production)
+   - `https://compiel-platform-api.vercel.app/api/auth/callback/microsoft` (production)
    - `http://localhost:3000/api/auth/callback/microsoft` (local dev)
 3. Scroll down to **"Implicit grant and hybrid flows"**:
    - ✅ Check **"ID tokens"** (for authentication)
@@ -46,7 +46,7 @@ After registration, go to **"Authentication"** in the left sidebar:
 ### 1.5 Create Client Secret
 1. Go to **"Certificates & secrets"** in the left sidebar
 2. Click **"New client secret"**
-3. Add description: `Comp AI Production`
+3. Add description: `Compiel Production`
 4. Choose expiration: **24 months** (recommended)
 5. Click **"Add"**
 6. **⚠️ IMPORTANT**: Copy the **Value** immediately (you won't be able to see it again)
@@ -64,7 +64,7 @@ After registration, go to **"Authentication"** in the left sidebar:
 ## Step 2: Add Environment Variables to Vercel
 
 ### Go to Vercel Settings
-Open: https://vercel.com/[your-team]/comp-ai-platform-api/settings/environment-variables
+Open: https://vercel.com/[your-team]/compiel-platform-api/settings/environment-variables
 
 ### Add These Variables:
 
@@ -114,7 +114,7 @@ git push
 ## Step 5: Test Microsoft Sign-In
 
 ### 5.1 Open Your App
-Go to: https://comp-ai-platform-api.vercel.app/auth
+Go to: https://compiel-platform-api.vercel.app/auth
 
 ### 5.2 Look for Microsoft Button
 You should see a "Sign in with Microsoft" button alongside Google
@@ -181,7 +181,7 @@ microsoft: {
 1. Go to Azure AD app → Authentication
 2. Ensure this exact URL is listed:
    ```
-   https://comp-ai-platform-api.vercel.app/api/auth/callback/microsoft
+   https://compiel-platform-api.vercel.app/api/auth/callback/microsoft
    ```
 3. URL must match exactly (including `/api/auth/callback/microsoft`)
 
@@ -262,7 +262,7 @@ After setup, test these scenarios:
 
 | Setting | Value |
 |---------|-------|
-| **Redirect URI (Production)** | `https://comp-ai-platform-api.vercel.app/api/auth/callback/microsoft` |
+| **Redirect URI (Production)** | `https://compiel-platform-api.vercel.app/api/auth/callback/microsoft` |
 | **Redirect URI (Localhost)** | `http://localhost:3000/api/auth/callback/microsoft` |
 | **Tenant ID** | `common` (accepts all Microsoft accounts) |
 | **Prompt** | `select_account` (forces account picker) |

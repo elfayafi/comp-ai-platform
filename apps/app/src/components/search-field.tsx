@@ -1,7 +1,7 @@
 'use client';
 
-import { Icons } from '@comp/ui/icons';
-import { Input } from '@comp/ui/input';
+import { Icons } from '@compiel/ui/icons';
+import { Input } from '@compiel/ui/input';
 import { useQueryState } from 'nuqs';
 import { useHotkeys } from 'react-hotkeys-hook';
 

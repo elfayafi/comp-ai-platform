@@ -5,8 +5,8 @@ import {
   useIntegrationMutations,
 } from '@/hooks/use-integration-platform';
 import { api } from '@/lib/api-client';
-import { Button } from '@comp/ui/button';
-import { ComboboxDropdown } from '@comp/ui/combobox-dropdown';
+import { Button } from '@compiel/ui/button';
+import { ComboboxDropdown } from '@compiel/ui/combobox-dropdown';
 import {
   Dialog,
   DialogContent,
@@ -14,12 +14,12 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
-import { Input } from '@comp/ui/input';
-import { Label } from '@comp/ui/label';
-import MultipleSelector from '@comp/ui/multiple-selector';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@comp/ui/tabs';
+} from '@compiel/ui/dialog';
+import { Input } from '@compiel/ui/input';
+import { Label } from '@compiel/ui/label';
+import MultipleSelector from '@compiel/ui/multiple-selector';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@compiel/ui/tabs';
 import { Key, Loader2, Settings, Trash2, Unplug } from 'lucide-react';
 import Image from 'next/image';
 import { useParams } from 'next/navigation';

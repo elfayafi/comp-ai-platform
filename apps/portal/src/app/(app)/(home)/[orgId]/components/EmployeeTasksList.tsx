@@ -1,8 +1,8 @@
 'use client';
 
 import { trainingVideos } from '@/lib/data/training-videos';
-import { Accordion } from '@comp/ui/accordion';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@comp/ui/card';
+import { Accordion } from '@compiel/ui/accordion';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@compiel/ui/card';
 import type { EmployeeTrainingVideoCompletion, Member, Policy } from '@db';
 import type { FleetPolicy, Host } from '../types';
 import { DeviceAgentAccordionItem } from './tasks/DeviceAgentAccordionItem';
@@ -57,7 +57,7 @@ export const EmployeeTasksList = ({
       content: <PoliciesAccordionItem policies={policies} member={member} />,
     },
     {
-      title: 'Download and install Comp AI Device Agent',
+      title: 'Download and install Compiel Device Agent',
       content: (
         <DeviceAgentAccordionItem member={member} host={host} fleetPolicies={fleetPolicies} />
       ),

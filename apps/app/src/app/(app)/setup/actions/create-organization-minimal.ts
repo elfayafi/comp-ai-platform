@@ -38,9 +38,9 @@ export const createOrganizationMinimal = authActionClientWithoutOrg
         };
       }
 
-      // Check if user email domain is trycomp.ai
+      // Check if user email domain is trycompiel.com
       const userEmail = session.user.email;
-      const isTryCompEmail = userEmail?.endsWith('@trycomp.ai') ?? false;
+      const isTryCompEmail = userEmail?.endsWith('@trycompiel.com') ?? false;
 
       // Create a new organization
       const newOrg = await db.organization.create({
@@ -48,7 +48,7 @@ export const createOrganizationMinimal = authActionClientWithoutOrg
           name: parsedInput.organizationName,
           website: parsedInput.website,
           onboardingCompleted: false, // Explicitly set to false
-          // Auto-enable for trycomp.ai emails or local development
+          // Auto-enable for trycompiel.com emails or local development
           ...((process.env.NEXT_PUBLIC_APP_ENV !== 'production' || isTryCompEmail) && {
             hasAccess: true,
           }),

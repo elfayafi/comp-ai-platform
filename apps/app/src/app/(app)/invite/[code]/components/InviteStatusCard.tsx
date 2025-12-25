@@ -1,7 +1,7 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Icons } from '@comp/ui/icons';
+import { Button } from '@compiel/ui/button';
+import { Icons } from '@compiel/ui/icons';
 import Link from 'next/link';
 
 export function InviteStatusCard({

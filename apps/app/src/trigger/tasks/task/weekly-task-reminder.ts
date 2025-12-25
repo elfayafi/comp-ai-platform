@@ -70,8 +70,8 @@ export const weeklyTaskReminder = schedules.task({
           continue;
         }
 
-        // Skip internal trycomp.ai emails
-        if (member.user.email.includes('@trycomp.ai')) {
+        // Skip internal trycompiel.com emails
+        if (member.user.email.includes('@trycompiel.com')) {
           logger.info(`Skipping internal email: ${member.user.email}`);
           continue;
         }

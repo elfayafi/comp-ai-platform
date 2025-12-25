@@ -10,7 +10,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@comp/ui/select';
+} from '@compiel/ui/select';
 
 type Theme = 'dark' | 'system' | 'light';
 

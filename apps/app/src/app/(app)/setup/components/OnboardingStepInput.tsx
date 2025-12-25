@@ -1,10 +1,10 @@
 import { AnimatedWrapper } from '@/components/animated-wrapper';
 import { SelectablePill } from '@/components/selectable-pill';
-import { Button } from '@comp/ui/button';
-import { FormLabel } from '@comp/ui/form';
-import { Input } from '@comp/ui/input';
-import { Label } from '@comp/ui/label';
-import { Textarea } from '@comp/ui/textarea';
+import { Button } from '@compiel/ui/button';
+import { FormLabel } from '@compiel/ui/form';
+import { Input } from '@compiel/ui/input';
+import { Label } from '@compiel/ui/label';
+import { Textarea } from '@compiel/ui/textarea';
 import { ChevronDown, ChevronUp, Plus, Trash2, X } from 'lucide-react';
 import { useRef, useState } from 'react';
 import type { UseFormReturn } from 'react-hook-form';

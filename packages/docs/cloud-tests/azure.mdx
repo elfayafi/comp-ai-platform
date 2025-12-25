@@ -1,11 +1,11 @@
 ---
 title: "Azure Cloud Tests"
-description: "Connect Azure to Comp AI for cloud security testing"
+description: "Connect Azure to Compiel for cloud security testing"
 ---
 
 # Azure Cloud Test
 
-The Azure Cloud Test enables you to connect your Microsoft Azure cloud environment to Comp AI for comprehensive security testing, compliance monitoring, and risk assessment using Microsoft Defender for Cloud
+The Azure Cloud Test enables you to connect your Microsoft Azure cloud environment to Compiel for comprehensive security testing, compliance monitoring, and risk assessment using Microsoft Defender for Cloud
 
 ## Setup Process
 
@@ -14,7 +14,7 @@ The Azure Cloud Test enables you to connect your Microsoft Azure cloud environme
 Before setting up the integration, ensure you have:
 
 1. Azure subscription with Owner or Contributor access
-2. Admin access to your Comp AI workspace
+2. Admin access to your Compiel workspace
 3. Permissions to register applications in Azure AD
 
 ### Configuration Steps
@@ -30,7 +30,7 @@ Before setting up the integration, ensure you have:
 3. **Register an Application in Azure AD**
    - Navigate to **Azure Active Directory \> App registrations**
    - Click **\+ New registration**
-   - Name the app (e.g., `CompAIIntegrationApp`)
+   - Name the app (e.g., `CompielIntegrationApp`)
    - Choose **Accounts in this organizational directory only**
    - Click **Register**
 4. **Get the Client ID and Tenant ID**
@@ -52,8 +52,8 @@ Before setting up the integration, ensure you have:
    - Select role: **Reader** (or **Security Reader** for enhanced visibility)
    - Assign access to: **User, group, or service principal**
    - Select your registered application
-7. **Connect Azure to Comp AI**
-   - Go to **Settings \> Integrations** in your Comp AI dashboard
+7. **Connect Azure to Compiel**
+   - Go to **Settings \> Integrations** in your Compiel dashboard
    - Click **Connect** next to the Azure integration card
    - Paste the following values:
      - **Client ID**
@@ -93,7 +93,7 @@ The Cloud Test checks compliance against:
 
 ### Access Control
 
-Comp AI requires read-only access to your Azure environment. The integration uses Azure's built-in Reader role or custom roles with specific permissions that follow the principle of least privilege.
+Compiel requires read-only access to your Azure environment. The integration uses Azure's built-in Reader role or custom roles with specific permissions that follow the principle of least privilege.
 
 ### Permissions
 
@@ -123,6 +123,6 @@ The integration does NOT have permissions to:
 
 For additional assistance with your Azure Cloud Tests:
 
-1. Check our [Knowledge Base](https://help.trycomp.ai/azure-integration)
-2. Contact support at [support@trycomp.ai](mailto:support@trycomp.ai)
+1. Check our [Knowledge Base](https://help.trycompiel.com/azure-integration)
+2. Contact support at [support@trycompiel.com](mailto:support@trycompiel.com)
 3. Join our [Discord community](https://discord.gg/compai) for peer support

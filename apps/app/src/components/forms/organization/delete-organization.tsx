@@ -11,8 +11,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '@comp/ui/alert-dialog';
-import { Button } from '@comp/ui/button';
+} from '@compiel/ui/alert-dialog';
+import { Button } from '@compiel/ui/button';
 import {
   Card,
   CardContent,
@@ -20,9 +20,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@comp/ui/card';
-import { Input } from '@comp/ui/input';
-import { Label } from '@comp/ui/label';
+} from '@compiel/ui/card';
+import { Input } from '@compiel/ui/input';
+import { Label } from '@compiel/ui/label';
 import { Loader2 } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';
 import { redirect } from 'next/navigation';
@@ -61,7 +61,7 @@ export function DeleteOrganization({
         <CardDescription>
           <div className="max-w-[600px]">
             {
-              'Permanently remove your organization and all of its contents from the Comp AI platform. This action is not reversible - please continue with caution.'
+              'Permanently remove your organization and all of its contents from the Compiel platform. This action is not reversible - please continue with caution.'
             }
           </div>
         </CardDescription>

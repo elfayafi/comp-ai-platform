@@ -38,7 +38,7 @@ export const UnassignedItemsNotificationEmail = ({
   unassignedItems,
   email,
 }: Props) => {
-  const baseUrl = process.env.NEXT_PUBLIC_BETTER_AUTH_URL ?? 'https://app.trycomp.ai';
+  const baseUrl = process.env.NEXT_PUBLIC_BETTER_AUTH_URL ?? 'https://app.trycompiel.com';
   const link = `${baseUrl}/${organizationId}`;
 
 
@@ -87,7 +87,7 @@ export const UnassignedItemsNotificationEmail = ({
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-400-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-400-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={400}
@@ -98,7 +98,7 @@ export const UnassignedItemsNotificationEmail = ({
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-500-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-500-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={500}

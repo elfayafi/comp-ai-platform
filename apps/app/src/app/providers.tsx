@@ -2,8 +2,8 @@
 
 import { JwtTokenManager } from '@/components/auth/jwt-token-manager';
 import { env } from '@/env.mjs';
-import { AnalyticsProvider } from '@comp/analytics';
-import { Toaster } from '@comp/ui/sooner';
+import { AnalyticsProvider } from '@compiel/analytics';
+import { Toaster } from '@compiel/ui/sooner';
 import { GoogleTagManager } from '@next/third-parties/google';
 import {
   defaultShouldDehydrateQuery,

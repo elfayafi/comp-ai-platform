@@ -1,6 +1,6 @@
 import { AppOnboarding } from '@/components/app-onboarding';
 import { getServersideSession } from '@/lib/get-session';
-import { SecondaryMenu } from '@comp/ui/secondary-menu';
+import { SecondaryMenu } from '@compiel/ui/secondary-menu';
 import { db } from '@db';
 import { headers } from 'next/headers';
 import { Suspense, cache } from 'react';

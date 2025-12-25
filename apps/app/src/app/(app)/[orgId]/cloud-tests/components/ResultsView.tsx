@@ -1,7 +1,7 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
+import { Button } from '@compiel/ui/button';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
 import { AlertCircle, CheckCircle2, Loader2, RefreshCw, Settings } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { FindingsTable } from './FindingsTable';

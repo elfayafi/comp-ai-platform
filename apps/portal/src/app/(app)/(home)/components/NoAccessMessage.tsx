@@ -1,4 +1,4 @@
-import { Alert, AlertDescription, AlertTitle } from '@comp/ui/alert';
+import { Alert, AlertDescription, AlertTitle } from '@compiel/ui/alert';
 import { AlertTriangle } from 'lucide-react';
 
 interface NoAccessMessageProps {

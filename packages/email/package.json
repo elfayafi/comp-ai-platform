@@ -1,13 +1,13 @@
 {
-  "name": "@trycompai/email",
-  "description": "Email templates and utilities for Comp AI",
+  "name": "@compiel/email",
+  "description": "Email templates and utilities for Compiel",
   "version": "1.0.0",
   "dependencies": {
     "@react-email/components": "^0.0.41",
     "@react-email/render": "^1.1.2",
     "@react-email/tailwind": "1.0.5",
-    "@trycompai/ui": "workspace:*",
-    "@trycompai/utils": "workspace:*",
+    "@compiel/ui": "workspace:*",
+    "@compiel/utils": "workspace:*",
     "date-fns": "^4.1.0",
     "next": "^15.4.6",
     "react-email": "^4.0.15",
@@ -34,7 +34,7 @@
     "README.md"
   ],
   "keywords": [
-    "comp-ai",
+    "compiel",
     "email-templates",
     "react-email"
   ],
@@ -50,7 +50,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comp-ai/comp.git",
+    "url": "git+https://github.com/compiel/comp.git",
     "directory": "packages/email"
   },
   "scripts": {

@@ -1,16 +1,16 @@
 'use client';
 
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@comp/ui/card';
-import { cn } from '@comp/ui/cn';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@compiel/ui/card';
+import { cn } from '@compiel/ui/cn';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@comp/ui/dropdown-menu';
-import { Progress } from '@comp/ui/progress';
+} from '@compiel/ui/dropdown-menu';
+import { Progress } from '@compiel/ui/progress';
 import { Control, Task } from '@db';
 import { BarChart3, MoreVertical, Target, Trash2 } from 'lucide-react';
 import { useState } from 'react';

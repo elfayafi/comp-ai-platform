@@ -1,5 +1,5 @@
 import { auth } from '@/utils/auth';
-import { getManifest } from '@comp/integration-platform';
+import { getManifest } from '@compiel/integration-platform';
 import { db } from '@db';
 import { headers } from 'next/headers';
 import { NextRequest, NextResponse } from 'next/server';

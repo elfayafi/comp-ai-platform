@@ -1,6 +1,6 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Card,
   CardContent,
@@ -8,8 +8,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@comp/ui/card';
-import { Checkbox } from '@comp/ui/checkbox';
+} from '@compiel/ui/card';
+import { Checkbox } from '@compiel/ui/checkbox';
 import { useAction } from 'next-safe-action/hooks';
 import { useState } from 'react';
 import { toast } from 'sonner';

@@ -13,9 +13,9 @@ import {
   SortableOverlay,
 } from '@/components/data-table/sortable';
 import { dataTableConfig } from '@/lib/data-table-config';
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { cn } from '@comp/ui/cn';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { cn } from '@compiel/ui/cn';
 import {
   Command,
   CommandEmpty,
@@ -23,9 +23,9 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from '@comp/ui/command';
-import { Popover, PopoverContent, PopoverTrigger } from '@comp/ui/popover';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
+} from '@compiel/ui/command';
+import { Popover, PopoverContent, PopoverTrigger } from '@compiel/ui/popover';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
 
 const OPEN_MENU_SHORTCUT = 's';
 const REMOVE_SORT_SHORTCUTS = ['backspace', 'delete'];

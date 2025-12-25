@@ -1,8 +1,8 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Card } from '@comp/ui/card';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@comp/ui/tooltip';
+import { Button } from '@compiel/ui/button';
+import { Card } from '@compiel/ui/card';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@compiel/ui/tooltip';
 import { Check, Copy } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';

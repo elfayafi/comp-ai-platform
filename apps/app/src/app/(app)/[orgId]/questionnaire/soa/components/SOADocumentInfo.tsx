@@ -1,7 +1,7 @@
 'use client';
 
-import { Card } from '@comp/ui';
-import { Button } from '@comp/ui/button';
+import { Card } from '@compiel/ui';
+import { Button } from '@compiel/ui/button';
 import { Zap, Loader2, ShieldCheck } from 'lucide-react';
 import { Member, User } from '@db';
 
@@ -62,7 +62,7 @@ export function SOADocumentInfo({
           <div className="h-8 w-px bg-border" />
           <div className="flex flex-col gap-1">
             <p className="text-xs font-medium text-muted-foreground uppercase tracking-wide">Prepared by</p>
-            <p className="text-sm font-semibold text-foreground">{document.preparedBy || 'Comp AI'}</p>
+            <p className="text-sm font-semibold text-foreground">{document.preparedBy || 'Compiel'}</p>
           </div>
           <div className="h-8 w-px bg-border" />
           <div className="flex flex-col gap-1">

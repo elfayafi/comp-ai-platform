@@ -1,7 +1,7 @@
 'use client';
 
-import { cn } from '@comp/ui/cn';
-import { TableHead, TableHeader, TableRow } from '@comp/ui/table';
+import { cn } from '@compiel/ui/cn';
+import { TableHead, TableHeader, TableRow } from '@compiel/ui/table';
 import type { Table } from '@tanstack/react-table';
 import { flexRender } from '@tanstack/react-table';
 import { ArrowDown, ArrowUp, ArrowUpDown } from 'lucide-react';

@@ -29,7 +29,7 @@ export class DeviceAgentService {
     contentType: string;
   }> {
     try {
-      const macosPackageFilename = 'Comp AI Agent-1.0.0-arm64.dmg';
+      const macosPackageFilename = 'Compiel Agent-1.0.0-arm64.dmg';
       const packageKey = `macos/${macosPackageFilename}`;
 
       this.logger.log(`Downloading macOS agent from S3: ${packageKey}`);
@@ -72,7 +72,7 @@ export class DeviceAgentService {
     contentType: string;
   }> {
     try {
-      const windowsPackageFilename = 'Comp AI Agent 1.0.0.exe';
+      const windowsPackageFilename = 'Compiel Agent 1.0.0.exe';
       const packageKey = `windows/${windowsPackageFilename}`;
 
       this.logger.log(`Downloading Windows agent from S3: ${packageKey}`);

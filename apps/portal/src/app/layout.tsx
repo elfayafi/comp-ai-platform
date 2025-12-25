@@ -1,8 +1,8 @@
 import { env } from '@/env.mjs';
 import { auth } from '@/app/lib/auth';
-import { initializeServer } from '@comp/analytics/server';
-import { cn } from '@comp/ui/cn';
-import '@comp/ui/globals.css';
+import { initializeServer } from '@compiel/analytics/server';
+import { cn } from '@compiel/ui/cn';
+import '@compiel/ui/globals.css';
 import { GeistMono } from 'geist/font/mono';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
@@ -13,38 +13,38 @@ import { Toaster } from 'sonner';
 import { Providers } from './providers';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://portal.trycomp.ai'),
-  title: 'Comp AI | Employee Portal',
+  metadataBase: new URL('https://portal.trycompiel.com'),
+  title: 'Compiel | Employee Portal',
   description: 'Enter your email and one time password to continue',
   twitter: {
-    title: 'Comp AI | Employee Portal',
+    title: 'Compiel | Employee Portal',
     description: 'Enter your email and one time password to continue',
     images: [
       {
-        url: 'https://cdn.trycomp.ai/opengraph-image.jpg',
+        url: 'https://cdn.trycompiel.com/opengraph-image.jpg',
         width: 800,
         height: 600,
       },
       {
-        url: 'https://cdn.trycomp.ai/opengraph-image.jpg',
+        url: 'https://cdn.trycompiel.com/opengraph-image.jpg',
         width: 1800,
         height: 1600,
       },
     ],
   },
   openGraph: {
-    title: 'Comp AI | Employee Portal',
+    title: 'Compiel | Employee Portal',
     description: 'Enter your email and one time password to continue',
-    url: 'https://portal.trycomp.ai',
-    siteName: 'Comp AI',
+    url: 'https://portal.trycompiel.com',
+    siteName: 'Compiel',
     images: [
       {
-        url: 'https://cdn.trycomp.ai/opengraph-image.jpg',
+        url: 'https://cdn.trycompiel.com/opengraph-image.jpg',
         width: 800,
         height: 600,
       },
       {
-        url: 'https://cdn.trycomp.ai/opengraph-image.jpg',
+        url: 'https://cdn.trycompiel.com/opengraph-image.jpg',
         width: 1800,
         height: 1600,
       },

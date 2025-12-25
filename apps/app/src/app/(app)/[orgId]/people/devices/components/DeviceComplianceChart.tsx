@@ -1,12 +1,12 @@
 'use client';
 
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@comp/ui/card';
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@compiel/ui/card';
 import {
   type ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from '@comp/ui/chart';
+} from '@compiel/ui/chart';
 import * as React from 'react';
 import { Cell, Label, Pie, PieChart } from 'recharts';
 import type { Host } from '../types';

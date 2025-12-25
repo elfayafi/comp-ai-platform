@@ -1,14 +1,14 @@
 'use client';
 
 import { createControlAction } from '@/actions/controls/create-control-action';
-import { Button } from '@comp/ui/button';
-import { Drawer, DrawerContent, DrawerTitle } from '@comp/ui/drawer';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { useMediaQuery } from '@comp/ui/hooks';
-import { Input } from '@comp/ui/input';
-import MultipleSelector, { Option } from '@comp/ui/multiple-selector';
-import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@comp/ui/sheet';
-import { Textarea } from '@comp/ui/textarea';
+import { Button } from '@compiel/ui/button';
+import { Drawer, DrawerContent, DrawerTitle } from '@compiel/ui/drawer';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { useMediaQuery } from '@compiel/ui/hooks';
+import { Input } from '@compiel/ui/input';
+import MultipleSelector, { Option } from '@compiel/ui/multiple-selector';
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@compiel/ui/sheet';
+import { Textarea } from '@compiel/ui/textarea';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { ArrowRightIcon, X } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';

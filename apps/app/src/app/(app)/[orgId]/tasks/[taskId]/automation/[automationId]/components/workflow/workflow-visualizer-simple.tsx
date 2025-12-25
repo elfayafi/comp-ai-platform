@@ -2,7 +2,7 @@
 
 import { cn } from '@/lib/utils';
 import { useChat } from '@ai-sdk/react';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -10,7 +10,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
+} from '@compiel/ui/dialog';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -18,7 +18,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@comp/ui/dropdown-menu';
+} from '@compiel/ui/dropdown-menu';
 import { EvidenceAutomationVersion } from '@db';
 import { Code, Loader2, RotateCcw, Upload, Zap } from 'lucide-react';
 import { useParams } from 'next/navigation';

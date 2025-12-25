@@ -24,8 +24,8 @@ export class CorsExceptionFilter implements ExceptionFilter {
         'http://localhost:3000',
         'http://localhost:3001',
         'http://127.0.0.1:3000',
-        'https://app.trycomp.ai',
-        'https://trycomp.ai',
+        'https://app.trycompiel.com',
+        'https://trycompiel.com',
         process.env.APP_URL,
       ].filter(Boolean) as string[];
 

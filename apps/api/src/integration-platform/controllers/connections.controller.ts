@@ -23,7 +23,7 @@ import {
   TASK_TEMPLATE_INFO,
   type OAuthConfig,
   type TaskTemplateId,
-} from '@comp/integration-platform';
+} from '@compiel/integration-platform';
 
 interface CreateConnectionDto {
   providerSlug: string;

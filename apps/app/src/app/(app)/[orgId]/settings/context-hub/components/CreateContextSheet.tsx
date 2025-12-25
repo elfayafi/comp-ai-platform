@@ -1,15 +1,15 @@
 'use client';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Drawer,
   DrawerContent,
   DrawerDescription,
   DrawerHeader,
   DrawerTitle,
-} from '@comp/ui/drawer';
-import { useMediaQuery } from '@comp/ui/hooks';
-import { ScrollArea } from '@comp/ui/scroll-area';
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle } from '@comp/ui/sheet';
+} from '@compiel/ui/drawer';
+import { useMediaQuery } from '@compiel/ui/hooks';
+import { ScrollArea } from '@compiel/ui/scroll-area';
+import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle } from '@compiel/ui/sheet';
 import { X } from 'lucide-react';
 import { useQueryState } from 'nuqs';
 import { ContextForm } from './context-form';
@@ -40,7 +40,7 @@ export function CreateContextSheet() {
               </Button>
             </div>
             <SheetDescription>
-              Provide extra context to Comp AI about your organization.
+              Provide extra context to Compiel about your organization.
             </SheetDescription>
           </SheetHeader>
           <ScrollArea className="h-full p-0 pb-[100px]" hideScrollbar>
@@ -56,7 +56,7 @@ export function CreateContextSheet() {
         <DrawerHeader>
           <DrawerTitle>Add Context Entry</DrawerTitle>
           <DrawerDescription>
-            Provide extra context to Comp AI about your organization.
+            Provide extra context to Compiel about your organization.
           </DrawerDescription>
         </DrawerHeader>
         <ContextForm onSuccess={() => setOpen(null)} />

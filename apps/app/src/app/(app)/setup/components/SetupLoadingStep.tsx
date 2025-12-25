@@ -1,7 +1,7 @@
 'use client';
 
 import { AiWorkPreviewAuthentic } from '@/components/ai-work-preview-authentic';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';

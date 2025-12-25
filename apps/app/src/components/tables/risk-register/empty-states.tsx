@@ -1,8 +1,8 @@
 'use client';
 
 import { CreateRiskSheet } from '@/components/sheets/create-risk-sheet';
-import { Button } from '@comp/ui/button';
-import { Icons } from '@comp/ui/icons';
+import { Button } from '@compiel/ui/button';
+import { Icons } from '@compiel/ui/icons';
 import { Plus } from 'lucide-react';
 import { useParams, useRouter } from 'next/navigation';
 import { useQueryState } from 'nuqs';

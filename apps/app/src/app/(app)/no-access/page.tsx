@@ -38,9 +38,9 @@ export default async function NoAccess() {
         <h1 className="text-2xl font-bold">Access Denied</h1>
         <div className="flex flex-col text-center">
           <p>
-            <b>Employees</b> and <b>Contractors</b> don&apos;t have access to app.trycomp.ai, did you mean to go to{' '}
-            <Link href="https://portal.trycomp.ai" className="text-primary underline">
-              portal.trycomp.ai
+            <b>Employees</b> and <b>Contractors</b> don&apos;t have access to app.trycompiel.com, did you mean to go to{' '}
+            <Link href="https://portal.trycompiel.com" className="text-primary underline">
+              portal.trycompiel.com
             </Link>
             ?
           </p>

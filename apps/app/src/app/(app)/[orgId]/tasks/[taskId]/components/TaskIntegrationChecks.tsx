@@ -4,8 +4,8 @@ import { ConnectIntegrationDialog } from '@/components/integrations/ConnectInteg
 import { ManageIntegrationDialog } from '@/components/integrations/ManageIntegrationDialog';
 import { api } from '@/lib/api-client';
 import { cn } from '@/lib/utils';
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
 import { addDays, formatDistanceToNow, isBefore, setHours, setMinutes } from 'date-fns';
 import {
   AlertCircle,

@@ -1,10 +1,10 @@
 'use client';
 
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@comp/ui/accordion';
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@comp/ui/card';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@comp/ui/tooltip';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@compiel/ui/accordion';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@compiel/ui/card';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@compiel/ui/tooltip';
 import { BookOpen, HelpCircle, PlusIcon } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import Image from 'next/image';

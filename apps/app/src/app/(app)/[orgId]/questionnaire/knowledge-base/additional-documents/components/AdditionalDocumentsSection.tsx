@@ -1,7 +1,7 @@
 'use client';
 
 import { FileUploader } from '@/components/file-uploader';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@comp/ui/accordion';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@compiel/ui/accordion';
 import {
   AlertDialog,
   AlertDialogAction,
@@ -11,9 +11,9 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from '@comp/ui/alert-dialog';
-import { Button } from '@comp/ui/button';
-import { Card } from '@comp/ui';
+} from '@compiel/ui/alert-dialog';
+import { Button } from '@compiel/ui/button';
+import { Card } from '@compiel/ui';
 import { ChevronLeft, ChevronRight, Download, FileText, Trash2, Upload } from 'lucide-react';
 import { useState, useRef, useCallback } from 'react';
 import { toast } from 'sonner';

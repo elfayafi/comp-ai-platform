@@ -1,13 +1,13 @@
 'use client';
 
 import { changeOrganizationAction } from '@/actions/change-organization';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@comp/ui/dropdown-menu';
+} from '@compiel/ui/dropdown-menu';
 import type { Organization } from '@db';
 import { Check, ChevronsUpDown, Loader2 } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';

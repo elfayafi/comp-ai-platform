@@ -1,4 +1,4 @@
-import { getManifest, runAllChecks } from '@comp/integration-platform';
+import { getManifest, runAllChecks } from '@compiel/integration-platform';
 import { db } from '@db';
 import { logger, task } from '@trigger.dev/sdk';
 

@@ -1,7 +1,7 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Card } from '@comp/ui';
+import { Button } from '@compiel/ui/button';
+import { Card } from '@compiel/ui';
 import { isJSON } from '@/lib/utils';
 import { ChevronLeft, ChevronRight, ExternalLink, MessageSquare } from 'lucide-react';
 import Link from 'next/link';

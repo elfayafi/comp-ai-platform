@@ -45,7 +45,7 @@ postgresql://postgres:7Mxbvuk8fCDkSh0g@wtqvjcmjkpjaokoxwutc.supabase.co:5432/pos
 ## How to Update in Vercel
 
 ### Step 1: Open Vercel Environment Variables
-Go to: https://vercel.com/[your-team]/comp-ai-platform-api/settings/environment-variables
+Go to: https://vercel.com/[your-team]/compiel-platform-api/settings/environment-variables
 
 ### Step 2: Update DATABASE_URL
 1. Find `DATABASE_URL` in the list
@@ -80,7 +80,7 @@ After saving both variables:
 
 Once redeployed, test the magic link sign-in:
 
-1. Go to: https://comp-ai-platform-api.vercel.app/auth
+1. Go to: https://compiel-platform-api.vercel.app/auth
 2. Enter your email
 3. Click "Continue with email"
 4. Check browser console (F12) - should see no 500 errors

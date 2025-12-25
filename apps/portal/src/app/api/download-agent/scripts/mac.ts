@@ -4,7 +4,7 @@ export function generateMacScript(config: ScriptConfig): string {
   const { orgId, employeeId, fleetDevicePath } = config;
 
   return `#!/bin/bash
-# CompAI Device Setup (macOS)
+# Compiel Device Setup (macOS)
 # Creates organization markers for Fleet policies/labels with clear, human-readable output
 
 set -uo pipefail
@@ -29,7 +29,7 @@ log_warn()  { printf "[%s] %bWARN%b  %s\n" "$(timestamp)" "$YELLOW" "$NC" "$1" |
 log_error() { printf "[%s] %bERROR%b %s\n" "$(timestamp)" "$RED" "$NC" "$1" | tee -a "$LOG_FILE"; HAS_ERROR=1; ERROR_TEXT+=" - $1"$'\n'; }
 
 echo "------------------------------------------------------------"
-printf "%b\n" "$BOLD CompAI Device Setup (macOS)$NC"
+printf "%b\n" "$BOLD Compiel Device Setup (macOS)$NC"
 echo "Organization: $ORG_ID"
 echo "Employee: $EMPLOYEE_ID"
 echo "Date: $(timestamp)"
@@ -111,7 +111,7 @@ else
   echo "Next steps:"
   echo " - Take a screenshot of this window."
   echo " - Attach the log file from: $LOG_FILE"
-  echo " - Share both with your CompAI support contact."
+  echo " - Share both with your Compiel support contact."
 fi
 echo "------------------------------------------------------------"
 echo

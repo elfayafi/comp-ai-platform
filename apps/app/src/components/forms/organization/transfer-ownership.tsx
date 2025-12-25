@@ -10,8 +10,8 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from '@comp/ui/alert-dialog';
-import { Button } from '@comp/ui/button';
+} from '@compiel/ui/alert-dialog';
+import { Button } from '@compiel/ui/button';
 import {
   Card,
   CardContent,
@@ -19,16 +19,16 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@comp/ui/card';
-import { Input } from '@comp/ui/input';
-import { Label } from '@comp/ui/label';
+} from '@compiel/ui/card';
+import { Input } from '@compiel/ui/input';
+import { Label } from '@compiel/ui/label';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@comp/ui/select';
+} from '@compiel/ui/select';
 import { Loader2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';

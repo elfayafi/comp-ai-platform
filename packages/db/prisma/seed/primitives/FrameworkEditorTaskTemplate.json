@@ -92,7 +92,7 @@
   {
     "id": "frk_tt_684076a02261faf3d331289d",
     "name": "Publish Policies",
-    "description": "Make sure all of the policies in Comp AI have been published and all employees have signed/agreed to them by visiting portal.trycomp.ai .",
+    "description": "Make sure all of the policies in Compiel have been published and all employees have signed/agreed to them by visiting portal.trycompiel.com .",
     "frequency": "yearly",
     "department": "gov",
     "createdAt": "2025-06-04 16:38:56.293",
@@ -101,7 +101,7 @@
   {
     "id": "frk_tt_68406903839203801ac8041a",
     "name": "Device List",
-    "description": "Keep and maintain a list of your devices (laptops/servers). If you install the Comp AI agent on your devices, these will be automatically tracked in-app and you can mark this task as not-relevant.\n\nFor HIPAA: Know which devices hold your patient data is going and create a maintain a system to track it\n\nComp AI device agent is located at: portal.trycomp.ai",
+    "description": "Keep and maintain a list of your devices (laptops/servers). If you install the Compiel agent on your devices, these will be automatically tracked in-app and you can mark this task as not-relevant.\n\nFor HIPAA: Know which devices hold your patient data is going and create a maintain a system to track it\n\nCompiel device agent is located at: portal.trycompiel.com",
     "frequency": "yearly",
     "department": "admin",
     "createdAt": "2025-06-04 15:40:51.392",
@@ -110,7 +110,7 @@
   {
     "id": "frk_tt_68b59e7a29bec89c57014868",
     "name": "Statement of Applicability",
-    "description": "The Statement of Applicability identifies relevant ISO 27001 Annex A controls, explains their inclusion or exclusion, and shows their implementation status within the ISMS.\n\nThe Comp AI team will generate this document on behalf of the requesting team, ensuring alignment with the organization’s ISMS scope and risk assessment results.",
+    "description": "The Statement of Applicability identifies relevant ISO 27001 Annex A controls, explains their inclusion or exclusion, and shows their implementation status within the ISMS.\n\nThe Compiel team will generate this document on behalf of the requesting team, ensuring alignment with the organization’s ISMS scope and risk assessment results.",
     "frequency": "yearly",
     "department": "admin",
     "createdAt": "2025-09-01 13:24:09.841",
@@ -137,7 +137,7 @@
   {
     "id": "frk_tt_6840796f77d8a0dff53f947a",
     "name": "Secure Devices",
-    "description": "Ensure all devices have BitLocker/FileVault enabled, screen lock enabled after 5 minutes (for mac) or 15 minutes (for windows) of inactivity, a minimum password length of 8+ characters, security updates are automatically installed and Anti-virus enabled (Windows Defender or MacOS XProtect). \n\nUpload screenshots of each device or install the Comp AI agent on devices.\n\nComp AI device agent is located at: portal.trycomp.ai",
+    "description": "Ensure all devices have BitLocker/FileVault enabled, screen lock enabled after 5 minutes (for mac) or 15 minutes (for windows) of inactivity, a minimum password length of 8+ characters, security updates are automatically installed and Anti-virus enabled (Windows Defender or MacOS XProtect). \n\nUpload screenshots of each device or install the Compiel agent on devices.\n\nCompiel device agent is located at: portal.trycompiel.com",
     "frequency": "yearly",
     "department": "itsm",
     "createdAt": "2025-06-04 16:50:54.671",

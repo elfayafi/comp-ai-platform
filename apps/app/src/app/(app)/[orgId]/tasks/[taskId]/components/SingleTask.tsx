@@ -7,8 +7,8 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbSeparator,
-} from '@comp/ui/breadcrumb';
-import { Button } from '@comp/ui/button';
+} from '@compiel/ui/breadcrumb';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -16,7 +16,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
+} from '@compiel/ui/dialog';
 import {
   CommentEntityType,
   EvidenceAutomation,

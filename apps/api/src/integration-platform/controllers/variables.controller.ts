@@ -9,7 +9,7 @@ import {
   HttpStatus,
   Logger,
 } from '@nestjs/common';
-import { getManifest, type CheckVariable } from '@comp/integration-platform';
+import { getManifest, type CheckVariable } from '@compiel/integration-platform';
 import { ConnectionRepository } from '../repositories/connection.repository';
 import { ProviderRepository } from '../repositories/provider.repository';
 import { CredentialVaultService } from '../services/credential-vault.service';

@@ -6,7 +6,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@comp/ui/card';
+} from '@compiel/ui/card';
 import { db } from '@db';
 import { ArrowLeft, Check } from 'lucide-react';
 import { headers } from 'next/headers';

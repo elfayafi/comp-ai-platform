@@ -1,9 +1,9 @@
 'use client';
 
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { cn } from '@comp/ui/cn';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@comp/ui/tooltip';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { cn } from '@compiel/ui/cn';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@compiel/ui/tooltip';
 import type { Role } from '@db'; // Assuming Role is from prisma
 import { ChevronsUpDown, Lock, X } from 'lucide-react';
 

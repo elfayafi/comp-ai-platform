@@ -3,12 +3,12 @@
 import { createRiskAction } from '@/actions/risk/create-risk-action';
 import { createRiskSchema } from '@/actions/schema';
 import { SelectAssignee } from '@/components/SelectAssignee';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@comp/ui/accordion';
-import { Button } from '@comp/ui/button';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { Input } from '@comp/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
-import { Textarea } from '@comp/ui/textarea';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@compiel/ui/accordion';
+import { Button } from '@compiel/ui/button';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { Input } from '@compiel/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
+import { Textarea } from '@compiel/ui/textarea';
 import type { Member, RiskStatus, User } from '@db';
 import { Departments, RiskCategory } from '@db';
 import { zodResolver } from '@hookform/resolvers/zod';

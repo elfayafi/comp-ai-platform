@@ -8,11 +8,11 @@ import { useState } from 'react';
 import { toast } from 'sonner';
 
 import { authClient } from '@/utils/auth-client';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent } from '@comp/ui/card';
-import { Input } from '@comp/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
-import { Separator } from '@comp/ui/separator';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent } from '@compiel/ui/card';
+import { Input } from '@compiel/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
+import { Separator } from '@compiel/ui/separator';
 import type { Invitation, Role } from '@db';
 
 import { MemberRow } from './MemberRow';

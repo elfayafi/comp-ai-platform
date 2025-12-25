@@ -77,7 +77,7 @@ async function bootstrap(): Promise<void> {
       },
       'apikey',
     )
-    .addServer('https://api.trycomp.ai', 'API Server')
+    .addServer('https://api.trycompiel.com', 'API Server')
     .build();
   const document: OpenAPIObject = SwaggerModule.createDocument(app, config);
 

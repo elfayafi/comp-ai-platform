@@ -1,5 +1,5 @@
 import { getFeatureFlags } from '@/app/posthog';
-import { SecondaryMenu } from '@comp/ui/secondary-menu';
+import { SecondaryMenu } from '@compiel/ui/secondary-menu';
 import { db } from '@db';
 import { auth } from '@/utils/auth';
 import { headers } from 'next/headers';

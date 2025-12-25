@@ -1,9 +1,9 @@
 'use client';
 
-import { Alert, AlertDescription, AlertTitle } from '@comp/ui/alert';
-import { Button } from '@comp/ui/button';
-import { Icons } from '@comp/ui/icons';
-import { Sheet, SheetContent } from '@comp/ui/sheet';
+import { Alert, AlertDescription, AlertTitle } from '@compiel/ui/alert';
+import { Button } from '@compiel/ui/button';
+import { Icons } from '@compiel/ui/icons';
+import { Sheet, SheetContent } from '@compiel/ui/sheet';
 import type { Member, Task, User } from '@db';
 import { PencilIcon } from 'lucide-react';
 import dynamic from 'next/dynamic';

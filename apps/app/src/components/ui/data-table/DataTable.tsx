@@ -1,8 +1,8 @@
 'use client';
 
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { cn } from '@comp/ui/cn';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { cn } from '@compiel/ui/cn';
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -10,9 +10,9 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@comp/ui/dropdown-menu';
-import { Input } from '@comp/ui/input';
-import { Table, TableBody, TableCell, TableRow } from '@comp/ui/table';
+} from '@compiel/ui/dropdown-menu';
+import { Input } from '@compiel/ui/input';
+import { Table, TableBody, TableCell, TableRow } from '@compiel/ui/table';
 import {
   type ColumnDef,
   type SortingState,

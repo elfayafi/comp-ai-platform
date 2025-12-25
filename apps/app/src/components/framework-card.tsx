@@ -1,7 +1,7 @@
 'use client';
 
-import { Checkbox } from '@comp/ui/checkbox';
-import { cn } from '@comp/ui/cn';
+import { Checkbox } from '@compiel/ui/checkbox';
+import { cn } from '@compiel/ui/cn';
 import type { FrameworkEditorFramework } from '@db';
 
 type FrameworkCardProps = {

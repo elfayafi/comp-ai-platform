@@ -4,7 +4,7 @@ import {
   removeOrganizationLogoAction,
   updateOrganizationLogoAction,
 } from '@/actions/organization/update-organization-logo-action';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Card,
   CardContent,
@@ -12,7 +12,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@comp/ui/card';
+} from '@compiel/ui/card';
 import { ImagePlus, Loader2, Trash2 } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';
 import Image from 'next/image';

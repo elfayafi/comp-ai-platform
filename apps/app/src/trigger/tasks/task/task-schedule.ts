@@ -188,7 +188,7 @@ export const taskSchedule = schedules.task({
             organizationName: recipient.task.organization.name,
             organizationId: recipient.task.organizationId,
             taskId: recipient.task.id,
-            taskUrl: `${process.env.NEXT_PUBLIC_APP_URL ?? 'https://app.trycomp.ai'}/${recipient.task.organizationId}/tasks/${recipient.task.id}`,
+            taskUrl: `${process.env.NEXT_PUBLIC_APP_URL ?? 'https://app.trycompiel.com'}/${recipient.task.organizationId}/tasks/${recipient.task.id}`,
           },
         })),
       });

@@ -39,7 +39,7 @@ export const WeeklyTaskDigestEmail = ({
   organizationId,
   tasks,
 }: Props) => {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://app.trycomp.ai';
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://app.trycompiel.com';
   const tasksUrl = `${baseUrl}/${organizationId}/tasks`;
   const taskCountMessage = getTaskCountMessage(tasks.length);
 
@@ -51,7 +51,7 @@ export const WeeklyTaskDigestEmail = ({
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-400-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-400-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={400}
@@ -62,7 +62,7 @@ export const WeeklyTaskDigestEmail = ({
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-500-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-500-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={500}

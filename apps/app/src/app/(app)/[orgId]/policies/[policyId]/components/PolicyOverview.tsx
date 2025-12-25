@@ -3,10 +3,10 @@
 import { acceptRequestedPolicyChangesAction } from '@/actions/policies/accept-requested-policy-changes';
 import { denyRequestedPolicyChangesAction } from '@/actions/policies/deny-requested-policy-changes';
 import { authClient } from '@/utils/auth-client';
-import { Alert, AlertDescription, AlertTitle } from '@comp/ui/alert';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@comp/ui/card';
-import { Icons } from '@comp/ui/icons';
+import { Alert, AlertDescription, AlertTitle } from '@compiel/ui/alert';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@compiel/ui/card';
+import { Icons } from '@compiel/ui/icons';
 import type { Member, Policy, User } from '@db';
 import { Control } from '@db';
 import { format } from 'date-fns';

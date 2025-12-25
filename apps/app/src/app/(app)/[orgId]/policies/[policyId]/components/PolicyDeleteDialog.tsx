@@ -1,7 +1,7 @@
 'use client';
 
 import { deletePolicyAction } from '@/actions/policies/delete-policy';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -9,8 +9,8 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
-import { Form } from '@comp/ui/form';
+} from '@compiel/ui/dialog';
+import { Form } from '@compiel/ui/form';
 import { Policy } from '@db';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Trash2 } from 'lucide-react';

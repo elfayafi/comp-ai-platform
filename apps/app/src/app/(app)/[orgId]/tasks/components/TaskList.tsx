@@ -1,9 +1,9 @@
 'use client';
 
 import { updateTaskViewPreference } from '@/actions/tasks';
-import { Button, Tabs, TabsContent, TabsList, TabsTrigger } from '@comp/ui';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
-import { Separator } from '@comp/ui/separator';
+import { Button, Tabs, TabsContent, TabsList, TabsTrigger } from '@compiel/ui';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
+import { Separator } from '@compiel/ui/separator';
 import type { Member, Task, User } from '@db';
 import { Check, Circle, FolderTree, List, Plus, XCircle } from 'lucide-react';
 import Image from 'next/image';

@@ -4,7 +4,7 @@ import {
   Injectable,
   InternalServerErrorException,
 } from '@nestjs/common';
-import { db } from '@trycompai/db';
+import { db } from '@compiel/db';
 import { AttachmentsService } from '../attachments/attachments.service';
 import {
   AttachmentResponseDto,

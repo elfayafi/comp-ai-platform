@@ -1,6 +1,6 @@
 import { useAccessGrants } from '@/hooks/use-access-requests';
-import { Input } from '@comp/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
+import { Input } from '@compiel/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
 import { useState } from 'react';
 import { GrantDataTable } from './grant-data-table';
 import { RevokeDialog } from './revoke-dialog';

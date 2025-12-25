@@ -1,4 +1,4 @@
-# @trycompai/ui
+# @compiel/ui
 
 A modern, accessible UI component library built with React, TypeScript, and Tailwind CSS. Based on shadcn/ui components with custom enhancements.
 
@@ -6,13 +6,13 @@ A modern, accessible UI component library built with React, TypeScript, and Tail
 
 ```bash
 # Using npm
-npm install @trycompai/ui
+npm install @compiel/ui
 
 # Using yarn
-yarn add @trycompai/ui
+yarn add @compiel/ui
 
 # Using bun
-bun add @trycompai/ui
+bun add @compiel/ui
 ```
 
 ## Setup
@@ -23,7 +23,7 @@ Add the UI library's global CSS to your app's entry point:
 
 ```tsx
 // In your app's root layout or _app.tsx
-import '@trycompai/ui/globals.css';
+import '@compiel/ui/globals.css';
 ```
 
 ### 2. Configure Tailwind
@@ -31,7 +31,7 @@ import '@trycompai/ui/globals.css';
 The UI library provides a Tailwind preset. Update your `tailwind.config.ts`:
 
 ```ts
-import uiPreset from '@trycompai/ui/tailwind-preset';
+import uiPreset from '@compiel/ui/tailwind-preset';
 import type { Config } from 'tailwindcss';
 
 export default {
@@ -39,7 +39,7 @@ export default {
   content: [
     './src/**/*.{ts,tsx}',
     // Include the UI library in content paths
-    './node_modules/@trycompai/ui/dist/**/*.js',
+    './node_modules/@compiel/ui/dist/**/*.js',
   ],
   // Your custom config...
 } satisfies Config;
@@ -87,7 +87,7 @@ Ensure your app includes the required CSS variables for theming. These should be
 ### Basic Import
 
 ```tsx
-import { Button, Card, Input } from '@trycompai/ui';
+import { Button, Card, Input } from '@compiel/ui';
 
 export function MyComponent() {
   return (
@@ -104,14 +104,14 @@ export function MyComponent() {
 For better tree-shaking, import components individually:
 
 ```tsx
-import { Button } from '@trycompai/ui/button';
-import { Card } from '@trycompai/ui/card';
+import { Button } from '@compiel/ui/button';
+import { Card } from '@compiel/ui/card';
 ```
 
 ### Using Hooks
 
 ```tsx
-import { useMediaQuery } from '@trycompai/ui/hooks';
+import { useMediaQuery } from '@compiel/ui/hooks';
 
 export function ResponsiveComponent() {
   const isMobile = useMediaQuery('(max-width: 768px)');
@@ -123,7 +123,7 @@ export function ResponsiveComponent() {
 ### Using Utilities
 
 ```tsx
-import { cn } from '@trycompai/ui/utils';
+import { cn } from '@compiel/ui/utils';
 
 export function Component({ className }: { className?: string }) {
   return <div className={cn('flex items-center', className)}>Content</div>;

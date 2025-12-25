@@ -1,5 +1,5 @@
 import { auth } from '@/utils/auth';
-import { SecondaryMenu } from '@comp/ui/secondary-menu';
+import { SecondaryMenu } from '@compiel/ui/secondary-menu';
 import { db } from '@db';
 import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';

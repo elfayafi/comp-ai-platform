@@ -4,12 +4,12 @@ import { updatePolicyFormAction } from '@/actions/policies/update-policy-form-ac
 import { updatePolicyFormSchema } from '@/actions/schema';
 import { StatusIndicator } from '@/components/status-indicator';
 import { useSession } from '@/utils/auth-client';
-import { Button } from '@comp/ui/button';
-import { Calendar } from '@comp/ui/calendar';
-import { cn } from '@comp/ui/cn';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { Popover, PopoverContent, PopoverTrigger } from '@comp/ui/popover';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
+import { Button } from '@compiel/ui/button';
+import { Calendar } from '@compiel/ui/calendar';
+import { cn } from '@compiel/ui/cn';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { Popover, PopoverContent, PopoverTrigger } from '@compiel/ui/popover';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
 import { Departments, Frequency, type Policy, type PolicyStatus } from '@db';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { format } from 'date-fns';

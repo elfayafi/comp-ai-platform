@@ -1,6 +1,6 @@
 {
-  "name": "@trycompai/tsconfig",
-  "description": "Shared TypeScript configurations for Comp AI",
+  "name": "@compiel/tsconfig",
+  "description": "Shared TypeScript configurations for Compiel",
   "version": "1.0.0",
   "exports": {
     "./base": "./base.json",
@@ -17,7 +17,7 @@
     "README.md"
   ],
   "keywords": [
-    "comp-ai",
+    "compiel",
     "configuration",
     "tsconfig",
     "typescript"
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comp-ai/comp.git",
+    "url": "git+https://github.com/compiel/comp.git",
     "directory": "packages/tsconfig"
   }
 }

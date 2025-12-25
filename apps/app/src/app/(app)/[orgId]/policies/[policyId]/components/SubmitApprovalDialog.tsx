@@ -1,7 +1,7 @@
 'use client';
 
 import { SelectAssignee } from '@/components/SelectAssignee';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -9,7 +9,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
+} from '@compiel/ui/dialog';
 import { Member, User } from '@db';
 import { Loader2 } from 'lucide-react';
 

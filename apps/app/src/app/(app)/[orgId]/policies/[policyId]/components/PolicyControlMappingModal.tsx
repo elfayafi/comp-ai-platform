@@ -1,5 +1,5 @@
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -8,8 +8,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@comp/ui/dialog';
-import MultipleSelector, { Option } from '@comp/ui/multiple-selector';
+} from '@compiel/ui/dialog';
+import MultipleSelector, { Option } from '@compiel/ui/multiple-selector';
 import { Control } from '@db';
 import { PlusIcon } from 'lucide-react';
 import { useParams } from 'next/navigation';

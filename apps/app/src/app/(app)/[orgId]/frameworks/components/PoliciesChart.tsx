@@ -3,13 +3,13 @@
 import * as React from 'react';
 import { Label, Pie, PieChart } from 'recharts';
 
-import { Card, CardContent, CardHeader, CardTitle } from '@comp/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@compiel/ui/card';
 import {
   type ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from '@comp/ui/chart';
+} from '@compiel/ui/chart';
 import { Info } from 'lucide-react';
 
 interface PoliciesChartData {

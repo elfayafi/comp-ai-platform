@@ -2,12 +2,12 @@
 
 import { PolicyEditor } from '@/components/editor/policy-editor';
 import { useChat } from '@ai-sdk/react';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent } from '@comp/ui/card';
-import { DiffViewer } from '@comp/ui/diff-viewer';
-import { validateAndFixTipTapContent } from '@comp/ui/editor';
-import '@comp/ui/editor.css';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@comp/ui/tabs';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent } from '@compiel/ui/card';
+import { DiffViewer } from '@compiel/ui/diff-viewer';
+import { validateAndFixTipTapContent } from '@compiel/ui/editor';
+import '@compiel/ui/editor.css';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@compiel/ui/tabs';
 import type { PolicyDisplayFormat } from '@db';
 import type { JSONContent } from '@tiptap/react';
 import { DefaultChatTransport } from 'ai';

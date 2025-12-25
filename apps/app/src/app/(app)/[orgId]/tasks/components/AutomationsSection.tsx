@@ -1,7 +1,7 @@
 'use client';
 
-import { Badge } from '@comp/ui/badge';
-import { Card } from '@comp/ui/card';
+import { Badge } from '@compiel/ui/badge';
+import { Card } from '@compiel/ui/card';
 import type { EvidenceAutomation, EvidenceAutomationRun, Task } from '@db';
 import { formatDistanceToNow } from 'date-fns';
 import { Activity, ArrowRight, CheckCircle2, Clock, Sparkles, XCircle } from 'lucide-react';

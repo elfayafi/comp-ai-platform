@@ -1,10 +1,10 @@
 import '@/styles/globals.css';
-import '@comp/ui/globals.css';
+import '@compiel/ui/globals.css';
 
 import { LinkedInInsight } from '@/components/tracking/LinkedInInsight';
 import { env } from '@/env.mjs';
 import { auth } from '@/utils/auth';
-import { cn } from '@comp/ui/cn';
+import { cn } from '@compiel/ui/cn';
 import { Analytics as DubAnalytics } from '@dub/analytics/react';
 import { Analytics as VercelAnalytics } from '@vercel/analytics/next';
 import { GeistMono } from 'geist/font/mono';
@@ -19,38 +19,38 @@ export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://app.trycomp.ai'),
-  title: 'Comp AI | Automate SOC 2, ISO 27001 and GDPR compliance with AI.',
+  metadataBase: new URL('https://app.trycompiel.com'),
+  title: 'Compiel | Automate SOC 2, ISO 27001 and GDPR compliance with AI.',
   description: 'Automate SOC 2, ISO 27001 and GDPR compliance with AI.',
   twitter: {
-    title: 'Comp AI | Automate SOC 2, ISO 27001 and GDPR compliance with AI.',
+    title: 'Compiel | Automate SOC 2, ISO 27001 and GDPR compliance with AI.',
     description: 'Automate SOC 2, ISO 27001 and GDPR compliance with AI.',
     images: [
       {
-        url: 'https://cdn.trycomp.ai/opengraph-image.jpg',
+        url: 'https://cdn.trycompiel.com/opengraph-image.jpg',
         width: 800,
         height: 600,
       },
       {
-        url: 'https://cdn.trycomp.ai/opengraph-image.jpg',
+        url: 'https://cdn.trycompiel.com/opengraph-image.jpg',
         width: 1800,
         height: 1600,
       },
     ],
   },
   openGraph: {
-    title: 'Comp AI | Automate SOC 2, ISO 27001 and GDPR compliance with AI.',
+    title: 'Compiel | Automate SOC 2, ISO 27001 and GDPR compliance with AI.',
     description: 'Automate SOC 2, ISO 27001 and GDPR compliance with AI.',
-    url: 'https://app.trycomp.ai',
-    siteName: 'Comp AI',
+    url: 'https://app.trycompiel.com',
+    siteName: 'Compiel',
     images: [
       {
-        url: 'https://cdn.trycomp.ai/opengraph-image.jpg',
+        url: 'https://cdn.trycompiel.com/opengraph-image.jpg',
         width: 800,
         height: 600,
       },
       {
-        url: 'https://cdn.trycomp.ai/opengraph-image.jpg',
+        url: 'https://cdn.trycompiel.com/opengraph-image.jpg',
         width: 1800,
         height: 1600,
       },

@@ -1,7 +1,7 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Card, CardContent } from '@comp/ui/card';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent } from '@compiel/ui/card';
 import type { Onboarding } from '@db';
 import { useRealtimeRun } from '@trigger.dev/react-hooks';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -827,7 +827,7 @@ export const OnboardingTracker = ({ onboarding }: { onboarding: Onboarding }) =>
                 Retry setup
               </Button>
               <Button size="sm" variant="outline" asChild>
-                <a href="mailto:support@trycomp.ai">Contact support</a>
+                <a href="mailto:support@trycompiel.com">Contact support</a>
               </Button>
             </div>
           </div>

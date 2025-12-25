@@ -2,8 +2,8 @@
 
 import { useApi } from '@/hooks/use-api';
 import { useCommentActions } from '@/hooks/use-comments-api';
-import { Avatar, AvatarFallback, AvatarImage } from '@comp/ui/avatar';
-import { Button } from '@comp/ui/button';
+import { Avatar, AvatarFallback, AvatarImage } from '@compiel/ui/avatar';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -11,20 +11,20 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
+} from '@compiel/ui/dialog';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@comp/ui/dropdown-menu';
-import { Textarea } from '@comp/ui/textarea';
+} from '@compiel/ui/dropdown-menu';
+import { Textarea } from '@compiel/ui/textarea';
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@comp/ui/tooltip';
+} from '@compiel/ui/tooltip';
 import {
   AlertTriangle,
   FileIcon,

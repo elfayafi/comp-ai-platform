@@ -1,7 +1,7 @@
 'use client';
 
 import { regenerateVendorMitigationAction } from '@/app/(app)/[orgId]/vendors/[vendorId]/actions/regenerate-vendor-mitigation';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -9,13 +9,13 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
+} from '@compiel/ui/dialog';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@comp/ui/dropdown-menu';
+} from '@compiel/ui/dropdown-menu';
 import { Cog } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';
 import { useState } from 'react';

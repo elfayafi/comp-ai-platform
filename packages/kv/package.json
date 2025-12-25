@@ -1,6 +1,6 @@
 {
-  "name": "@trycompai/kv",
-  "description": "Key-value store utilities using Upstash Redis for Comp AI",
+  "name": "@compiel/kv",
+  "description": "Key-value store utilities using Upstash Redis for Compiel",
   "version": "1.0.0",
   "dependencies": {
     "@upstash/redis": "^1.34.2",
@@ -23,7 +23,7 @@
   ],
   "keywords": [
     "cache",
-    "comp-ai",
+    "compiel",
     "key-value",
     "redis",
     "upstash"
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comp-ai/comp.git",
+    "url": "git+https://github.com/compiel/comp.git",
     "directory": "packages/kv"
   },
   "scripts": {

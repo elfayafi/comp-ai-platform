@@ -29,7 +29,7 @@ export async function createFleetLabel({
       os === 'macos'
         ? `SELECT 1 FROM file WHERE path = '${fleetDevicePathMac}/${employeeId}' LIMIT 1;`
         : `SELECT 1 FROM file WHERE path = '${fleetDevicePathWindows}\\${employeeId}'
-           UNION SELECT 1 FROM file WHERE path = 'C:\\Users\\Public\\CompAI\\Fleet\\${employeeId}'
+           UNION SELECT 1 FROM file WHERE path = 'C:\\Users\\Public\\Compiel\\Fleet\\${employeeId}'
            LIMIT 1;`;
 
     // Normalize whitespace to a single line to avoid issues with newlines/tabs

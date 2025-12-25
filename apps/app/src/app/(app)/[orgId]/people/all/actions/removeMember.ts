@@ -10,7 +10,7 @@ import {
   isUserUnsubscribed,
   sendUnassignedItemsNotificationEmail,
   type UnassignedItem,
-} from '@comp/email';
+} from '@compiel/email';
 
 const removeMemberSchema = z.object({
   memberId: z.string(),

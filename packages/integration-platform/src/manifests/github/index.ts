@@ -15,13 +15,13 @@ export const manifest: IntegrationManifest = {
     'Connect GitHub to monitor repository security, branch protection, and organization settings.',
   category: 'Development',
   logoUrl: 'https://img.logo.dev/github.com?token=pk_AZatYxV5QDSfWpRDaBxzRQ',
-  docsUrl: 'https://docs.trycomp.ai/integrations/github',
+  docsUrl: 'https://docs.trycompiel.com/integrations/github',
 
   // API configuration for ctx.fetch helper
   baseUrl: 'https://api.github.com',
   defaultHeaders: {
     Accept: 'application/vnd.github.v3+json',
-    'User-Agent': 'CompAI-Integration',
+    'User-Agent': 'Compiel-Integration',
   },
 
   auth: {
@@ -40,7 +40,7 @@ export const manifest: IntegrationManifest = {
       setupInstructions: `To create a GitHub OAuth App:
 1. Go to GitHub Settings > Developer settings > OAuth Apps
 2. Click "New OAuth App"
-3. Set "Application name" to something descriptive (e.g., "CompAI Integration")
+3. Set "Application name" to something descriptive (e.g., "Compiel Integration")
 4. Set "Homepage URL" to your application URL
 5. Set "Authorization callback URL" to the callback URL shown below
 6. Click "Register application"

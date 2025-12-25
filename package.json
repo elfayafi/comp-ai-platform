@@ -1,5 +1,5 @@
 {
-  "name": "comp",
+  "name": "compiel",
   "version": "1.50.0",
   "devDependencies": {
     "@azure/core-http": "^3.0.5",
@@ -70,17 +70,17 @@
     "deps:update": "syncpack update",
     "deps:upgrade": "syncpack update && bun install",
     "dev": "turbo dev --parallel",
-    "db:generate": "turbo run db:generate --filter=@comp/app --filter=@comp/portal --filter=@comp/api",
-    "docker:clean": "bun run -F @comp/db docker:clean",
-    "docker:down": "bun run -F @comp/db docker:down",
-    "docker:up": "bun run -F @comp/db docker:up",
+    "db:generate": "turbo run db:generate --filter=@compiel/app --filter=@compiel/portal --filter=@compiel/api",
+    "docker:clean": "bun run -F @compiel/db docker:clean",
+    "docker:down": "bun run -F @compiel/db docker:down",
+    "docker:up": "bun run -F @compiel/db docker:up",
     "format": "prettier --write .",
     "lint": "turbo lint && syncpack lint",
     "prepare": "husky",
     "test": "turbo test --parallel",
     "test:release": "node scripts/test-release.js",
     "typecheck": "turbo typecheck",
-    "typecheck:ci": "turbo typecheck --filter={apps/**} --filter={packages/**} --filter=!@trycompai/integrations --filter=!@trycompai/ui"
+    "typecheck:ci": "turbo typecheck --filter={apps/**} --filter={packages/**} --filter=!@compiel/integrations --filter=!@compiel/ui"
   },
   "workspaces": [
     "apps/*",

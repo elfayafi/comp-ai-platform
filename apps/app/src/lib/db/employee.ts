@@ -1,6 +1,6 @@
 import { env } from '@/env.mjs';
 import { trainingVideos } from '@/lib/data/training-videos';
-import { InvitePortalEmail, sendEmail } from '@comp/email';
+import { InvitePortalEmail, sendEmail } from '@compiel/email';
 import { db, type Departments, type Member, type Role } from '@db';
 import { revalidatePath } from 'next/cache';
 
@@ -93,7 +93,7 @@ async function inviteEmployeeToPortal({
 
   await sendEmail({
     to: email,
-    subject: `You've been invited to join ${organizationName || 'an organization'} on Comp AI`,
+    subject: `You've been invited to join ${organizationName || 'an organization'} on Compiel`,
     react: InvitePortalEmail({
       email,
       organizationName,

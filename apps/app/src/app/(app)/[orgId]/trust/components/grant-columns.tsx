@@ -1,8 +1,8 @@
 'use client';
 
 import type { AccessGrant } from '@/hooks/use-access-requests';
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
 import type { ColumnDef } from '@tanstack/react-table';
 import { Copy } from 'lucide-react';
 import { toast } from 'sonner';

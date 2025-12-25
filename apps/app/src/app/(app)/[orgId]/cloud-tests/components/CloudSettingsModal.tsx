@@ -1,7 +1,7 @@
 'use client';
 
 import { useIntegrationMutations } from '@/hooks/use-integration-platform';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -9,8 +9,8 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@comp/ui/tabs';
+} from '@compiel/ui/dialog';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@compiel/ui/tabs';
 import { Loader2, Trash2 } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';

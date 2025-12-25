@@ -1,6 +1,6 @@
 import { auth } from '@/app/lib/auth';
 import { logger } from '@/utils/logger';
-import { client as kv } from '@comp/kv';
+import { client as kv } from '@compiel/kv';
 import { randomBytes } from 'crypto';
 import { type NextRequest, NextResponse } from 'next/server';
 import { createFleetLabel } from '../fleet-label';
@@ -56,7 +56,7 @@ export async function POST(req: NextRequest) {
 
   // Hardcoded device marker paths used by the setup scripts
   const fleetDevicePathMac = '/Users/Shared/.fleet';
-  const fleetDevicePathWindows = 'C:\\ProgramData\\CompAI\\Fleet';
+  const fleetDevicePathWindows = 'C:\\ProgramData\\Compiel\\Fleet';
 
   // Create Fleet label
   try {

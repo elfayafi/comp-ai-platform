@@ -20,7 +20,7 @@ interface Props {
 }
 
 export const WaitlistEmail = ({ email }: Props) => {
-  const confirmationUrl = `https://trycomp.ai/api/waitlist?email=${email}`;
+  const confirmationUrl = `https://trycompiel.com/api/waitlist?email=${email}`;
 
   return (
     <Html>
@@ -30,7 +30,7 @@ export const WaitlistEmail = ({ email }: Props) => {
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-400-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-400-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={400}
@@ -40,7 +40,7 @@ export const WaitlistEmail = ({ email }: Props) => {
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-500-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-500-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={500}
@@ -48,7 +48,7 @@ export const WaitlistEmail = ({ email }: Props) => {
           />
         </Head>
 
-        <Preview>Confirm your email to join the Comp AI waitlist</Preview>
+        <Preview>Confirm your email to join the Compiel waitlist</Preview>
 
         <Body className="mx-auto my-auto bg-[#fff] font-sans">
           <Container
@@ -61,7 +61,7 @@ export const WaitlistEmail = ({ email }: Props) => {
             </Heading>
 
             <Text className="text-[14px] leading-[24px] text-[#121212]">
-              To claim your spot on the Comp AI waitlist, please confirm your email.
+              To claim your spot on the Compiel waitlist, please confirm your email.
             </Text>
             <Section className="mt-[32px] mb-[42px] text-center">
               <Button

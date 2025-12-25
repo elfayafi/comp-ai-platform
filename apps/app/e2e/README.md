@@ -237,7 +237,7 @@ The E2E workflow:
 Test results can be viewed in multiple ways:
 
 1. **GitHub Actions Summary** - Quick overview directly in the Actions tab
-2. **GitHub Pages Dashboard** - Full HTML reports at https://trycompai.github.io/comp/
+2. **GitHub Pages Dashboard** - Full HTML reports at https://compiel.github.io/comp/
 3. **Playwright Trace Viewer** - Debug failures at https://trace.playwright.dev
 
 See [TEST_RESULTS_VIEWING.md](./TEST_RESULTS_VIEWING.md) for detailed instructions.

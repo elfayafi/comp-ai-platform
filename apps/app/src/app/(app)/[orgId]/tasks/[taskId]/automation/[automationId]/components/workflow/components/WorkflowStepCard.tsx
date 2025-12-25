@@ -1,7 +1,7 @@
 'use client';
 
 import { cn } from '@/lib/utils';
-import { Card, CardContent } from '@comp/ui/card';
+import { Card, CardContent } from '@compiel/ui/card';
 import {
   AlertCircle,
   CheckCircle2,

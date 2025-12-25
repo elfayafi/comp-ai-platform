@@ -7,17 +7,17 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbSeparator,
-} from '@comp/ui/breadcrumb';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@comp/ui/card';
+} from '@compiel/ui/breadcrumb';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@compiel/ui/card';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@comp/ui/dropdown-menu';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
-import { Textarea } from '@comp/ui/textarea';
+} from '@compiel/ui/dropdown-menu';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
+import { Textarea } from '@compiel/ui/textarea';
 import { EvidenceAutomation, EvidenceAutomationRun, EvidenceAutomationVersion, Task } from '@db';
 import { ChevronRight, Loader2, MoreVertical, Play, Trash2 } from 'lucide-react';
 import Link from 'next/link';

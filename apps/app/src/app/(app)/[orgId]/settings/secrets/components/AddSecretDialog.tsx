@@ -1,6 +1,6 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -9,11 +9,11 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@comp/ui/dialog';
-import { Input } from '@comp/ui/input';
-import { Label } from '@comp/ui/label';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
-import { Textarea } from '@comp/ui/textarea';
+} from '@compiel/ui/dialog';
+import { Input } from '@compiel/ui/input';
+import { Label } from '@compiel/ui/label';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
+import { Textarea } from '@compiel/ui/textarea';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Loader2, Plus } from 'lucide-react';
 import { useState } from 'react';

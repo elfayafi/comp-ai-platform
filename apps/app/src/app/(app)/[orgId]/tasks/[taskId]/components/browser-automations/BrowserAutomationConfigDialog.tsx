@@ -1,6 +1,6 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -8,10 +8,10 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
-import { Input } from '@comp/ui/input';
-import { Label } from '@comp/ui/label';
-import { Textarea } from '@comp/ui/textarea';
+} from '@compiel/ui/dialog';
+import { Input } from '@compiel/ui/input';
+import { Label } from '@compiel/ui/label';
+import { Textarea } from '@compiel/ui/textarea';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Loader2 } from 'lucide-react';
 import { useEffect } from 'react';

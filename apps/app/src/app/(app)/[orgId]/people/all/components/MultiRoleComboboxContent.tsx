@@ -7,11 +7,11 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from '@comp/ui/command';
+} from '@compiel/ui/command';
 import type { Role } from '@db'; // Assuming Role is from prisma
 import { Check } from 'lucide-react';
 
-import { cn } from '@comp/ui/cn';
+import { cn } from '@compiel/ui/cn';
 
 interface MultiRoleComboboxContentProps {
   searchTerm: string;

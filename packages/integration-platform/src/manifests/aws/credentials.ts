@@ -209,7 +209,7 @@ Select **SecurityAudit** managed policy.
 
 ### 3. Name the Role
 • **Name**: CompSecurityAudit
-• **Description**: Read-only access for Comp AI compliance monitoring
+• **Description**: Read-only access for Compiel compliance monitoring
 
 ### 4. Copy ARN
 After creating, copy the Role ARN (looks like \`arn:aws:iam::123456789012:role/CompSecurityAudit\`)

@@ -1,5 +1,5 @@
 import { useAccessRequest, useApproveAccessRequest } from '@/hooks/use-access-requests';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -7,8 +7,8 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
-import { Field, FieldError, FieldLabel } from '@comp/ui/field';
+} from '@compiel/ui/dialog';
+import { Field, FieldError, FieldLabel } from '@compiel/ui/field';
 import { useForm } from '@tanstack/react-form';
 import { toast } from 'sonner';
 import { DurationPicker } from './duration-picker';

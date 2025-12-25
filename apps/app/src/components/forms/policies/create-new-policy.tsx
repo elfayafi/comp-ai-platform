@@ -2,11 +2,11 @@
 
 import { createPolicyAction } from '@/actions/policies/create-new-policy';
 import { createPolicySchema, type CreatePolicySchema } from '@/actions/schema';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@comp/ui/accordion';
-import { Button } from '@comp/ui/button';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { Input } from '@comp/ui/input';
-import { Textarea } from '@comp/ui/textarea';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@compiel/ui/accordion';
+import { Button } from '@compiel/ui/button';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { Input } from '@compiel/ui/input';
+import { Textarea } from '@compiel/ui/textarea';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { ArrowRightIcon } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';

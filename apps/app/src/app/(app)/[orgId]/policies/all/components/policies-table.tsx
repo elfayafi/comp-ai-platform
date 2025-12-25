@@ -9,7 +9,7 @@ import { DataTableToolbar } from '@/components/data-table/data-table-toolbar';
 import { CreatePolicySheet } from '@/components/sheets/create-policy-sheet';
 import { useDataTable } from '@/hooks/use-data-table';
 import { downloadAllPolicies } from '@/lib/pdf-generator';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import type { Policy } from '@db';
 import { useParams } from 'next/navigation';
 import { getLogsForPolicy } from '../../[policyId]/data';

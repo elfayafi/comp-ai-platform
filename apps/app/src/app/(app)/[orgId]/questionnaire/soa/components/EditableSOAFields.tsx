@@ -1,15 +1,15 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { Button } from '@comp/ui/button';
-import { Textarea } from '@comp/ui/textarea';
+import { Button } from '@compiel/ui/button';
+import { Textarea } from '@compiel/ui/textarea';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@comp/ui/select';
+} from '@compiel/ui/select';
 import {
   Dialog,
   DialogContent,
@@ -17,7 +17,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
+} from '@compiel/ui/dialog';
 import { X, Loader2, Edit2 } from 'lucide-react';
 import { toast } from 'sonner';
 import { api } from '@/lib/api-client';

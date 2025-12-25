@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@comp/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@compiel/ui/card';
 import { db, VendorCategory } from '@db';
 import { VendorCategoryChart } from './category-chart';
 

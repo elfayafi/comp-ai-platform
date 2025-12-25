@@ -1,6 +1,6 @@
 import { UserMenu } from '@/app/components/user-menu';
-import { Icons } from '@comp/ui/icons';
-import { Skeleton } from '@comp/ui/skeleton';
+import { Icons } from '@compiel/ui/icons';
+import { Skeleton } from '@compiel/ui/skeleton';
 import Link from 'next/link';
 import { Suspense } from 'react';
 

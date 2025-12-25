@@ -12,7 +12,7 @@ import {
 } from '@nestjs/common';
 import { OAuthCredentialsService } from '../services/oauth-credentials.service';
 import { OAuthAppRepository } from '../repositories/oauth-app.repository';
-import { getManifest } from '@comp/integration-platform';
+import { getManifest } from '@compiel/integration-platform';
 
 interface SaveOAuthAppDto {
   providerSlug: string;

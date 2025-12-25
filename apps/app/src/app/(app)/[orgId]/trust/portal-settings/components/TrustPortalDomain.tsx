@@ -1,7 +1,7 @@
 'use client';
 
 import { useDomain } from '@/hooks/use-domain';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Card,
   CardContent,
@@ -9,10 +9,10 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@comp/ui/card';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { Input } from '@comp/ui/input';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@comp/ui/tooltip';
+} from '@compiel/ui/card';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { Input } from '@compiel/ui/input';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@compiel/ui/tooltip';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { AlertCircle, CheckCircle, ClipboardCopy, ExternalLink, Loader2 } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';

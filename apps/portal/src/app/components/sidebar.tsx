@@ -1,4 +1,4 @@
-import { Icons } from '@comp/ui/icons';
+import { Icons } from '@compiel/ui/icons';
 import Link from 'next/link';
 import { MainMenu } from './main-menu';
 

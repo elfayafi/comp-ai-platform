@@ -1,5 +1,5 @@
-import { cn } from '@comp/ui/cn';
-import { Icons } from '@comp/ui/icons';
+import { cn } from '@compiel/ui/cn';
+import { Icons } from '@compiel/ui/icons';
 import Link from 'next/link';
 
 export function SidebarLogo({ isCollapsed }: { isCollapsed: boolean }) {

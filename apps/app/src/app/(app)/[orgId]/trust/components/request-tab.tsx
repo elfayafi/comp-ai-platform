@@ -1,6 +1,6 @@
 import { useAccessRequests, usePreviewNda, useResendNda } from '@/hooks/use-access-requests';
-import { Input } from '@comp/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
+import { Input } from '@compiel/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
 import { useState } from 'react';
 import { toast } from 'sonner';
 import { ApproveDialog } from './approve-dialog';

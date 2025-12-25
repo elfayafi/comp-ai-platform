@@ -7,11 +7,11 @@ import {
   type OAuthAvailability,
 } from '@/hooks/use-integration-platform';
 import { api } from '@/lib/api-client';
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@comp/ui/card';
-import { Input } from '@comp/ui/input';
-import { Label } from '@comp/ui/label';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@compiel/ui/card';
+import { Input } from '@compiel/ui/input';
+import { Label } from '@compiel/ui/label';
 import {
   AlertCircle,
   CheckCircle2,

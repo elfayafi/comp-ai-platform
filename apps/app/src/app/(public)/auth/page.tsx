@@ -8,15 +8,15 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@comp/ui/card';
-import { Icons } from '@comp/ui/icons';
+} from '@compiel/ui/card';
+import { Icons } from '@compiel/ui/icons';
 import type { Metadata } from 'next';
 import { headers } from 'next/headers';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
-  title: 'Login | Comp AI',
+  title: 'Login | Compiel',
 };
 
 export default async function Page({
@@ -50,7 +50,7 @@ export default async function Page({
           <CardHeader className="text-center space-y-3 pt-10">
             <Icons.Logo className="h-10 w-10 mx-auto" />
             <CardTitle className="text-2xl tracking-tight text-card-foreground">
-              Get Started with Comp AI
+              Get Started with Compiel
             </CardTitle>
             <CardDescription className="text-base text-muted-foreground px-4">
               {`Automate SOC 2, ISO 27001 and GDPR compliance with AI.`}
@@ -63,14 +63,14 @@ export default async function Page({
             <p className="w-full px-6 text-center text-xs text-muted-foreground">
               By clicking continue, you acknowledge that you have read and agree to the{' '}
               <Link
-                href="https://trycomp.ai/terms-and-conditions"
+                href="https://trycompiel.com/terms-and-conditions"
                 className="underline hover:text-primary"
               >
                 Terms and Conditions
               </Link>{' '}
               and{' '}
               <Link
-                href="https://trycomp.ai/privacy-policy"
+                href="https://trycompiel.com/privacy-policy"
                 className="underline hover:text-primary"
               >
                 Privacy Policy

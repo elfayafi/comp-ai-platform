@@ -1,48 +1,48 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <a href="https://github.com/trycompai/comp">
-   <img src="https://assets.trycomp.ai/logo.png" alt="Logo" width="10%">
+  <a href="https://github.com/compiel/comp">
+   <img src="https://assets.trycompiel.com/logo.png" alt="Logo" width="10%">
   </a>
 
-  <h3 align="center">Comp AI</h3>
+  <h3 align="center">Compiel</h3>
 
   <p align="center">
     The open-source compliance platform.
     <br />
-    <a href="https://trycomp.ai"><strong>Learn more »</strong></a>
+    <a href="https://trycompiel.com"><strong>Learn more »</strong></a>
     <br />
     <br />
     <a href="https://discord.gg/compai">Discord</a>
     ·
-    <a href="https://trycomp.ai">Website</a>
+    <a href="https://trycompiel.com">Website</a>
     ·
-    <a href="https://trycomp.ai/docs">Documentation</a>
+    <a href="https://trycompiel.com/docs">Documentation</a>
     ·
-    <a href="https://github.com/trycompai/comp/issues">Issues</a>
+    <a href="https://github.com/compiel/comp/issues">Issues</a>
     ·
-    <a href="https://roadmap.trycomp.ai/roadmap">Roadmap</a>
+    <a href="https://roadmap.trycompiel.com/roadmap">Roadmap</a>
   </p>
 </p>
 
 <p align="center">
-   <a href="https://www.producthunt.com/products/comp-ai-get-soc-2-iso-27001-gdpr/launches/comp-ai"><img src="https://img.shields.io/badge/Product%20Hunt-%231%20Product%20of%20the%Day%23DA552E" alt="Product Hunt"></a>
-   <a href="https://github.com/trycompai/comp/stargazers"><img src="https://img.shields.io/github/stars/trycompai/comp" alt="Github Stars"></a>
-   <a href="https://github.com/trycompai/comp/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License"></a>
-   <a href="https://github.com/trycompai/comp/pulse"><img src="https://img.shields.io/github/commit-activity/m/trycompai/comp" alt="Commits-per-month"></a>
-   <a href="https://github.com/trycompai/comp/issues"><img src="https://img.shields.io/badge/Help%20Wanted-Contribute-blue"></a>
+   <a href="https://www.producthunt.com/products/compiel-get-soc-2-iso-27001-gdpr/launches/compiel"><img src="https://img.shields.io/badge/Product%20Hunt-%231%20Product%20of%20the%Day%23DA552E" alt="Product Hunt"></a>
+   <a href="https://github.com/compiel/comp/stargazers"><img src="https://img.shields.io/github/stars/compiel/comp" alt="Github Stars"></a>
+   <a href="https://github.com/compiel/comp/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License"></a>
+   <a href="https://github.com/compiel/comp/pulse"><img src="https://img.shields.io/github/commit-activity/m/compiel/comp" alt="Commits-per-month"></a>
+   <a href="https://github.com/compiel/comp/issues"><img src="https://img.shields.io/badge/Help%20Wanted-Contribute-blue"></a>
 </p>
 
 ## About
 
 ### AI that handles compliance for you in hours.
 
-Comp AI is the fastest way to get compliant with frameworks like SOC 2, ISO 27001, HIPAA and GDPR. Comp AI automates evidence collection, policy management, and control implementation while keeping you in control of your data and infrastructure.
+Compiel is the fastest way to get compliant with frameworks like SOC 2, ISO 27001, HIPAA and GDPR. Compiel automates evidence collection, policy management, and control implementation while keeping you in control of your data and infrastructure.
 
 ## Recognition
 
-#### [ProductHunt](https://www.producthunt.com/posts/comp-ai)
+#### [ProductHunt](https://www.producthunt.com/posts/compiel)
 
-<a href="https://www.producthunt.com/posts/comp-ai?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-comp&#0045;ai" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=944698&theme=light&period=daily&t=1745500415958" alt="Comp&#0032;AI - The&#0032;open&#0032;source&#0032;Vanta&#0032;&#0038;&#0032;Drata&#0032;alternative | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<a href="https://www.producthunt.com/posts/compiel?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-comp&#0045;ai" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=944698&theme=light&period=daily&t=1745500415958" alt="Comp&#0032;AI - The&#0032;open&#0032;source&#0032;Vanta&#0032;&#0038;&#0032;Drata&#0032;alternative | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 #### [Vercel](https://vercel.com/)
 
@@ -52,20 +52,20 @@ Comp AI is the fastest way to get compliant with frameworks like SOC 2, ISO 2700
 
 ### Built With
 
-- [Next.js](https://nextjs.org/?ref=trycomp.ai)
-- [Trigger.dev](https://trigger.dev/?ref=trycomp.ai)
-- [Prisma](https://prisma.io/?ref=trycomp.ai)
-- [Tailwind CSS](https://tailwindcss.com/?ref=trycomp.ai)
-- [Upstash](https://upstash.com/?ref=trycomp.ai)
-- [Vercel](https://vercel.com/?ref=trycomp.ai)
+- [Next.js](https://nextjs.org/?ref=trycompiel.com)
+- [Trigger.dev](https://trigger.dev/?ref=trycompiel.com)
+- [Prisma](https://prisma.io/?ref=trycompiel.com)
+- [Tailwind CSS](https://tailwindcss.com/?ref=trycompiel.com)
+- [Upstash](https://upstash.com/?ref=trycompiel.com)
+- [Vercel](https://vercel.com/?ref=trycompiel.com)
 
 ## Contact us
 
-Contact our founders at hello@trycomp.ai to learn more about how we can help you achieve compliance.
+Contact our founders at hello@trycompiel.com to learn more about how we can help you achieve compliance.
 
 ## Stay Up-to-Date
 
-Get access to the cloud hosted version of [Comp AI](https://trycomp.ai).
+Get access to the cloud hosted version of [Compiel](https://trycompiel.com).
 
 ## Getting Started
 
@@ -73,7 +73,7 @@ To get a local copy up and running, please follow these simple steps.
 
 ### Prerequisites
 
-Here is what you need to be able to run Comp AI.
+Here is what you need to be able to run Compiel.
 
 - Node.js (Version: >=20.x)
 - Bun (Version: >=1.1.36)
@@ -98,7 +98,7 @@ cp packages/db/.env.example packages/db/.env
 1. Clone the repo
 
 ```sh
-git clone https://github.com/trycompai/comp.git
+git clone https://github.com/compiel/comp.git
 ```
 
 2. Navigate to the project directory
@@ -328,26 +328,26 @@ turbo dev
 bun add -g turbo
 ```
 
-🎉 Yay! You now have a working local instance of Comp AI! 🚀
+🎉 Yay! You now have a working local instance of Compiel! 🚀
 
 ## Deployment
 
 ### Docker
 
-Steps to deploy Comp AI on Docker are coming soon.
+Steps to deploy Compiel on Docker are coming soon.
 
 ### Vercel
 
-Steps to deploy Comp AI on Vercel are coming soon.
+Steps to deploy Compiel on Vercel are coming soon.
 
 ## 📦 Package Publishing
 
 This repository uses semantic-release to automatically publish packages to npm when merging to the `release` branch. The following packages are published:
 
-- `@comp/db` - Database utilities with Prisma client
-- `@comp/email` - Email templates and components
-- `@comp/kv` - Key-value store utilities using Upstash Redis
-- `@comp/ui` - UI component library with Tailwind CSS
+- `@compiel/db` - Database utilities with Prisma client
+- `@compiel/email` - Email templates and components
+- `@compiel/kv` - Key-value store utilities using Upstash Redis
+- `@compiel/ui` - UI component library with Tailwind CSS
 
 ### Setup
 
@@ -359,11 +359,11 @@ This repository uses semantic-release to automatically publish packages to npm w
 
 ```bash
 # Install a published package
-npm install @comp/ui
+npm install @compiel/ui
 
 # Use in your project
-import { Button } from '@comp/ui/button'
-import { client } from '@comp/kv'
+import { Button } from '@compiel/ui/button'
+import { client } from '@compiel/kv'
 ```
 
 ### Development
@@ -373,7 +373,7 @@ import { client } from '@comp/kv'
 bun run build
 
 # Build specific package
-bun run -F @comp/ui build
+bun run -F @compiel/ui build
 
 # Test packages locally
 bun run release:packages --dry-run
@@ -381,8 +381,8 @@ bun run release:packages --dry-run
 
 ## Contributors
 
-<a href="https://github.com/trycompai/comp/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=trycompai/comp" />
+<a href="https://github.com/compiel/comp/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=compiel/comp" />
 </a>
 
 ## Repo Activity
@@ -393,7 +393,7 @@ bun run release:packages --dry-run
 
 ## License
 
-Comp AI, Inc. is a commercial open source company, which means some parts of this open source repository require a commercial license. The concept is called "Open Core" where the core technology (99%) is fully open source, licensed under [AGPLv3](https://opensource.org/license/agpl-v3) and the last 1% is covered under a commercial license (["/ee" Enterprise Edition"]).
+Compiel, Inc. is a commercial open source company, which means some parts of this open source repository require a commercial license. The concept is called "Open Core" where the core technology (99%) is fully open source, licensed under [AGPLv3](https://opensource.org/license/agpl-v3) and the last 1% is covered under a commercial license (["/ee" Enterprise Edition"]).
 
 > [!TIP]
-> We work closely with the community and always invite feedback about what should be open and what is fine to be commercial. This list is not set and stone and we have moved things from commercial to open in the past. Please open a [discussion](https://github.com/trycompai/comp/discussions) if you feel like something is wrong.
+> We work closely with the community and always invite feedback about what should be open and what is fine to be commercial. This list is not set and stone and we have moved things from commercial to open in the past. Please open a [discussion](https://github.com/compiel/comp/discussions) if you feel like something is wrong.

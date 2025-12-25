@@ -5,19 +5,19 @@ import {
   useIntegrationMutations,
   useIntegrationProviders,
 } from '@/hooks/use-integration-platform';
-import { Button } from '@comp/ui/button';
-import { ComboboxDropdown } from '@comp/ui/combobox-dropdown';
+import { Button } from '@compiel/ui/button';
+import { ComboboxDropdown } from '@compiel/ui/combobox-dropdown';
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
-import { Input } from '@comp/ui/input';
-import { Label } from '@comp/ui/label';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
-import { Textarea } from '@comp/ui/textarea';
+} from '@compiel/ui/dialog';
+import { Input } from '@compiel/ui/input';
+import { Label } from '@compiel/ui/label';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
+import { Textarea } from '@compiel/ui/textarea';
 import { Eye, EyeOff, Loader2 } from 'lucide-react';
 import Image from 'next/image';
 import { useCallback, useState } from 'react';

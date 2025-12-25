@@ -1,10 +1,10 @@
 'use client';
 
 import { archivePolicyAction } from '@/actions/policies/archive-policy';
-import { Button } from '@comp/ui/button';
-import { Drawer, DrawerContent, DrawerTitle } from '@comp/ui/drawer';
-import { useMediaQuery } from '@comp/ui/hooks';
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle } from '@comp/ui/sheet';
+import { Button } from '@compiel/ui/button';
+import { Drawer, DrawerContent, DrawerTitle } from '@compiel/ui/drawer';
+import { useMediaQuery } from '@compiel/ui/hooks';
+import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle } from '@compiel/ui/sheet';
 import { Policy } from '@db';
 import { ArchiveIcon, ArchiveRestoreIcon, X } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';

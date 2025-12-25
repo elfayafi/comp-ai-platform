@@ -24,7 +24,7 @@ export async function POST(req: Request) {
   }
 
   const systemPrompt = `
-    You're an expert in GRC, and a helpful assistant in Comp AI,
+    You're an expert in GRC, and a helpful assistant in Compiel,
     a platform that helps companies get compliant with frameworks
     like SOC 2, ISO 27001 and GDPR.
 

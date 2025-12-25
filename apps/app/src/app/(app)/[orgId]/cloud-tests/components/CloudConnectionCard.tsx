@@ -1,9 +1,9 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@comp/ui/card';
-import { Input } from '@comp/ui/input';
-import { Label } from '@comp/ui/label';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@compiel/ui/card';
+import { Input } from '@compiel/ui/input';
+import { Label } from '@compiel/ui/label';
 import { ExternalLink, Loader2 } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';

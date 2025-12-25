@@ -1,7 +1,7 @@
 'use client';
 
-import { cn } from '@comp/ui/cn';
-import { Separator } from '@comp/ui/separator';
+import { cn } from '@compiel/ui/cn';
+import { Separator } from '@compiel/ui/separator';
 import { AnimatePresence, motion } from 'framer-motion';
 import {
   AlertTriangle,

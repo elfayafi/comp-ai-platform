@@ -1,8 +1,8 @@
 'use client';
 
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { Input } from '@comp/ui/input';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { Input } from '@compiel/ui/input';
 import { ArrowRight, Globe, Loader2, MonitorSmartphone, Plus } from 'lucide-react';
 import { useState } from 'react';
 

@@ -2,11 +2,11 @@
 
 import { updatePolicyOverviewAction } from '@/actions/policies/update-policy-overview-action';
 import { updatePolicyOverviewSchema } from '@/actions/schema';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@comp/ui/accordion';
-import { Button } from '@comp/ui/button';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { Input } from '@comp/ui/input';
-import { Textarea } from '@comp/ui/textarea';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@compiel/ui/accordion';
+import { Button } from '@compiel/ui/button';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { Input } from '@compiel/ui/input';
+import { Textarea } from '@compiel/ui/textarea';
 import { Policy } from '@db';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Loader2 } from 'lucide-react';

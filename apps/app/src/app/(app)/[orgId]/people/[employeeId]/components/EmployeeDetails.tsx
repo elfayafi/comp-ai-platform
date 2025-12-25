@@ -1,8 +1,8 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@comp/ui/card';
-import { Form } from '@comp/ui/form';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@compiel/ui/card';
+import { Form } from '@compiel/ui/form';
 import type { Departments, Member, User } from '@db';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Save } from 'lucide-react';

@@ -6,12 +6,12 @@ import {
   WINDOWS_FILENAME,
 } from '@/app/api/download-agent/constants';
 import { detectOSFromUserAgent, SupportedOS } from '@/utils/os';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@comp/ui/accordion';
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@comp/ui/card';
-import { cn } from '@comp/ui/cn';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@comp/ui/tooltip';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@compiel/ui/accordion';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@compiel/ui/card';
+import { cn } from '@compiel/ui/cn';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@compiel/ui/tooltip';
 import type { Member } from '@db';
 import { CheckCircle2, Circle, Download, HelpCircle, Loader2, XCircle } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
@@ -149,7 +149,7 @@ export function DeviceAgentAccordionItem({
             <Circle className="text-muted-foreground h-5 w-5" />
           )}
           <span className={cn('text-base', isCompleted && 'text-muted-foreground line-through')}>
-            Download and install Comp AI Device Agent
+            Download and install Compiel Device Agent
           </span>
           {hasInstalledAgent && failedPoliciesCount > 0 && (
             <span className="text-amber-600 dark:text-amber-400 text-xs ml-auto">
@@ -161,7 +161,7 @@ export function DeviceAgentAccordionItem({
       <AccordionContent className="px-4 pb-4">
         <div className="space-y-4">
           <p className="text-sm">
-            Installing Comp AI Device Agent helps you and your security administrator keep your
+            Installing Compiel Device Agent helps you and your security administrator keep your
             device protected against security threats.
           </p>
 
@@ -200,7 +200,7 @@ export function DeviceAgentAccordionItem({
                   </div>
                 </li>
                 <li>
-                  <strong>Install the Comp AI Device Agent</strong>
+                  <strong>Install the Compiel Device Agent</strong>
                   <p className="mt-1">
                     {isMacOS
                       ? 'Double-click the downloaded DMG file and follow the installation instructions.'
@@ -293,7 +293,7 @@ export function DeviceAgentAccordionItem({
                                   <p>
                                     There are additional steps required to enable MDM. Please check{' '}
                                     <a
-                                      href="https://trycomp.ai/docs/device-agent#mdm-user-guide"
+                                      href="https://trycompiel.com/docs/device-agent#mdm-user-guide"
                                       target="_blank"
                                       rel="noopener noreferrer"
                                       className="text-blue-600 dark:text-blue-400 hover:underline"
@@ -355,15 +355,15 @@ export function DeviceAgentAccordionItem({
           </Accordion>
 
           <Accordion type="single" collapsible>
-            {/* About Comp AI Device Monitor */}
+            {/* About Compiel Device Monitor */}
             <AccordionItem value="about" className="border rounded-xs">
               <AccordionTrigger className="px-4 hover:no-underline">
-                <span className="text-base">About Comp AI Device Monitor</span>
+                <span className="text-base">About Compiel Device Monitor</span>
               </AccordionTrigger>
               <AccordionContent className="px-4 pb-4">
                 <div className="text-muted-foreground space-y-2 text-sm">
                   <p>
-                    Comp AI Device Monitor is a lightweight agent that helps ensure your device
+                    Compiel Device Monitor is a lightweight agent that helps ensure your device
                     meets security compliance requirements.
                   </p>
                   <p>
@@ -371,7 +371,7 @@ export function DeviceAgentAccordionItem({
                     help maintain a secure work environment.
                   </p>
                   <p>
-                    <strong>Security powered by Comp AI:</strong> Your organization uses Comp AI to
+                    <strong>Security powered by Compiel:</strong> Your organization uses Compiel to
                     maintain security and compliance standards.
                   </p>
                   <p className="text-xs">If you have questions, contact your IT administrator.</p>

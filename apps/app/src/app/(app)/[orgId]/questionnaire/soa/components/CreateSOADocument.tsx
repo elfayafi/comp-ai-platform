@@ -1,7 +1,7 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Card } from '@comp/ui';
+import { Button } from '@compiel/ui/button';
+import { Card } from '@compiel/ui';
 import { Plus, Loader2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';

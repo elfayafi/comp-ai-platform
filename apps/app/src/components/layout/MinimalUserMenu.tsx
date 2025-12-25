@@ -1,7 +1,7 @@
 'use client';
 
 import { authClient } from '@/utils/auth-client';
-import { Avatar, AvatarFallback, AvatarImageNext } from '@comp/ui/avatar';
+import { Avatar, AvatarFallback, AvatarImageNext } from '@compiel/ui/avatar';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -9,7 +9,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@comp/ui/dropdown-menu';
+} from '@compiel/ui/dropdown-menu';
 import type { User } from 'better-auth';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';

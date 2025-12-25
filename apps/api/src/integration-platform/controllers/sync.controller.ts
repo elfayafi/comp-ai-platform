@@ -12,7 +12,7 @@ import { db } from '@db';
 import { ConnectionRepository } from '../repositories/connection.repository';
 import { CredentialVaultService } from '../services/credential-vault.service';
 import { OAuthCredentialsService } from '../services/oauth-credentials.service';
-import { getManifest, type OAuthConfig } from '@comp/integration-platform';
+import { getManifest, type OAuthConfig } from '@compiel/integration-platform';
 
 interface SyncQuery {
   organizationId: string;

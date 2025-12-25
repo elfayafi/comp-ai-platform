@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "bunx turbo build --filter=@comp/app",
+  "buildCommand": "bunx turbo build --filter=@compiel/app",
   "installCommand": "bun install",
   "framework": "nextjs"
 }

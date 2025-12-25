@@ -1,4 +1,4 @@
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Loader2 } from 'lucide-react';
 import { useEffect, useState } from 'react';

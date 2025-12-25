@@ -1,4 +1,4 @@
-import { SecondaryMenu } from '@comp/ui/secondary-menu';
+import { SecondaryMenu } from '@compiel/ui/secondary-menu';
 
 export default async function Layout({ 
   children,

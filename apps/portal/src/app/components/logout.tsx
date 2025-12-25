@@ -1,7 +1,7 @@
 'use client';
 
 import { authClient } from '@/app/lib/auth-client';
-import { DropdownMenuItem } from '@comp/ui/dropdown-menu';
+import { DropdownMenuItem } from '@compiel/ui/dropdown-menu';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 

@@ -10,7 +10,7 @@ export type PrismaExtensionOptions = {
   migrate?: boolean;
   directUrlEnvVarName?: string;
   /**
-   * The version of the @trycompai/db package to use
+   * The version of the @compiel/db package to use
    */
   dbPackageVersion?: string;
 };
@@ -34,7 +34,7 @@ export class PrismaExtension implements BuildExtension {
     this.moduleExternals = [
       '@prisma/client',
       '@prisma/engines',
-      '@trycompai/db', // Add the published package to externals
+      '@compiel/db', // Add the published package to externals
     ];
   }
 
@@ -76,7 +76,7 @@ export class PrismaExtension implements BuildExtension {
       if (!resolution.path) {
         throw new Error(
           [
-            'PrismaExtension could not find the prisma schema. Make sure @trycompai/db is installed',
+            'PrismaExtension could not find the prisma schema. Make sure @compiel/db is installed',
             `with version ${this.options.dbPackageVersion || 'latest'} and that its dist files are built.`,
             'Searched the following locations:',
             ...resolution.searched.map((candidate) => ` - ${candidate}`),
@@ -108,7 +108,7 @@ export class PrismaExtension implements BuildExtension {
     }
 
     context.logger.debug(
-      `PrismaExtension is generating the Prisma client for version ${version} from @trycompai/db package`,
+      `PrismaExtension is generating the Prisma client for version ${version} from @compiel/db package`,
     );
 
     const commands: string[] = [];
@@ -163,7 +163,7 @@ export class PrismaExtension implements BuildExtension {
       env,
       dependencies: {
         prisma: version,
-        '@trycompai/db': this.options.dbPackageVersion || 'latest',
+        '@compiel/db': this.options.dbPackageVersion || 'latest',
       },
     });
 
@@ -172,7 +172,7 @@ export class PrismaExtension implements BuildExtension {
       commands,
       dependencies: {
         prisma: version,
-        '@trycompai/db': this.options.dbPackageVersion || 'latest',
+        '@compiel/db': this.options.dbPackageVersion || 'latest',
       },
       build: {
         env,
@@ -274,7 +274,7 @@ export class PrismaExtension implements BuildExtension {
 
       let current = start;
       while (true) {
-        candidates.add(resolve(current, 'node_modules/@trycompai/db/dist/schema.prisma'));
+        candidates.add(resolve(current, 'node_modules/@compiel/db/dist/schema.prisma'));
         const parent = dirname(current);
         if (parent === current) {
           break;

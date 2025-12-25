@@ -1,6 +1,6 @@
 import { db } from '@db';
-import { sendAllPolicyNotificationEmail } from '@comp/email';
-import { isUserUnsubscribed } from '@comp/email/lib/check-unsubscribe';
+import { sendAllPolicyNotificationEmail } from '@compiel/email';
+import { isUserUnsubscribed } from '@compiel/email/lib/check-unsubscribe';
 import { logger, queue, task } from '@trigger.dev/sdk';
 
 // Queue with concurrency limit to ensure rate limiting

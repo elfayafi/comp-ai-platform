@@ -1,8 +1,8 @@
 'use client';
 
 import { changeOrganizationAction } from '@/actions/change-organization';
-import { Button } from '@comp/ui/button';
-import { cn } from '@comp/ui/cn';
+import { Button } from '@compiel/ui/button';
+import { cn } from '@compiel/ui/cn';
 import {
   Command,
   CommandEmpty,
@@ -11,9 +11,9 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-} from '@comp/ui/command';
-import { Dialog, DialogContent, DialogTitle, DialogTrigger } from '@comp/ui/dialog';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
+} from '@compiel/ui/command';
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from '@compiel/ui/dialog';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
 import type { Organization } from '@db';
 import { Check, ChevronsUpDown, Loader2, Plus, Search } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';

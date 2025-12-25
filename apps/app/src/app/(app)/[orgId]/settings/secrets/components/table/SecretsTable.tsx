@@ -1,9 +1,9 @@
 'use client';
 
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@comp/ui/table';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@comp/ui/tooltip';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@compiel/ui/table';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@compiel/ui/tooltip';
 import { format } from 'date-fns';
 import { Copy, Edit, Eye, EyeOff, Loader2, Trash2 } from 'lucide-react';
 import { useState } from 'react';

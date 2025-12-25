@@ -1,8 +1,8 @@
 'use client';
 
 import { trainingVideos } from '@/lib/data/training-videos';
-import { AccordionContent, AccordionItem, AccordionTrigger } from '@comp/ui/accordion';
-import { cn } from '@comp/ui/cn';
+import { AccordionContent, AccordionItem, AccordionTrigger } from '@compiel/ui/accordion';
+import { cn } from '@compiel/ui/cn';
 import type { EmployeeTrainingVideoCompletion } from '@db';
 import { CheckCircle2, Circle } from 'lucide-react';
 import { VideoCarousel } from '../video/VideoCarousel';

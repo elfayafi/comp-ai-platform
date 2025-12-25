@@ -37,7 +37,7 @@ export function getReadmeContent(os: SupportedOS): string {
    - Double-click "compai-device-agent.msi" and follow the wizard
 
 3. Troubleshooting:
-   - If setup fails, open the log at: %ProgramData%\\CompAI\\Fleet or %Public%\\CompAI\\Fleet -> setup.log
+   - If setup fails, open the log at: %ProgramData%\\Compiel\\Fleet or %Public%\\Compiel\\Fleet -> setup.log
    - Ensure your antivirus or endpoint protection allows running local .bat files
    - If you cannot run as administrator, ask IT to assist or install both files and registry keys manually
 

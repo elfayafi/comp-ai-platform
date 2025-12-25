@@ -1,5 +1,5 @@
 import { auth as betterAuth } from '@/utils/auth';
-import { getManifest } from '@comp/integration-platform';
+import { getManifest } from '@compiel/integration-platform';
 import { db } from '@db';
 import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';

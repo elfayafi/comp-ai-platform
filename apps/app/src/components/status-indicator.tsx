@@ -1,4 +1,4 @@
-import { cn } from '@comp/ui/cn';
+import { cn } from '@compiel/ui/cn';
 
 // Consolidated status types from Prisma schema
 export const STATUS_TYPES = [

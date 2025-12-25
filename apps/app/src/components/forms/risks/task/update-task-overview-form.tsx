@@ -2,10 +2,10 @@
 
 import { updateTaskAction } from '@/actions/risk/task/update-task-action';
 import { updateTaskSchema } from '@/actions/schema';
-import { Button } from '@comp/ui/button';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
-import { Input } from '@comp/ui/input';
-import { Textarea } from '@comp/ui/textarea';
+import { Button } from '@compiel/ui/button';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
+import { Input } from '@compiel/ui/input';
+import { Textarea } from '@compiel/ui/textarea';
 import type { Task } from '@db';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Loader2 } from 'lucide-react';

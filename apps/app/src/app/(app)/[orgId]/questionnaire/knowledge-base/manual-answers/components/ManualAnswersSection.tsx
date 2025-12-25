@@ -1,6 +1,6 @@
 'use client';
 
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@comp/ui/accordion';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@compiel/ui/accordion';
 import {
   AlertDialog,
   AlertDialogAction,
@@ -10,9 +10,9 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from '@comp/ui/alert-dialog';
-import { Button } from '@comp/ui/button';
-import { Card } from '@comp/ui';
+} from '@compiel/ui/alert-dialog';
+import { Button } from '@compiel/ui/button';
+import { Card } from '@compiel/ui';
 import { ChevronLeft, ChevronRight, ExternalLink, PenTool, Trash2 } from 'lucide-react';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';

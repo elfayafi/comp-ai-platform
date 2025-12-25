@@ -1,6 +1,6 @@
 {
-  "name": "@trycompai/ui",
-  "description": "UI component library for Comp AI",
+  "name": "@compiel/ui",
+  "description": "UI component library for Compiel",
   "version": "1.3.2",
   "bundleDependencies": [
     "class-variance-authority",
@@ -508,7 +508,7 @@
     "dist/editor.css"
   ],
   "keywords": [
-    "comp-ai",
+    "compiel",
     "components",
     "radix-ui",
     "react",
@@ -530,7 +530,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comp-ai/comp.git",
+    "url": "git+https://github.com/compiel/comp.git",
     "directory": "packages/ui"
   },
   "scripts": {

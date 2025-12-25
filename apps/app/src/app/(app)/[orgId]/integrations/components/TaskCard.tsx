@@ -1,7 +1,7 @@
 'use client';
 
 import { api } from '@/lib/api-client';
-import { Skeleton } from '@comp/ui/skeleton';
+import { Skeleton } from '@compiel/ui/skeleton';
 import { ArrowRight, Loader2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';

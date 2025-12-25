@@ -2,9 +2,9 @@
 
 import { updateResidualRiskAction } from '@/actions/risk/update-residual-risk-action';
 import { updateResidualRiskSchema } from '@/actions/schema';
-import { Button } from '@comp/ui/button';
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel } from '@comp/ui/form';
-import { Slider } from '@comp/ui/slider';
+import { Button } from '@compiel/ui/button';
+import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel } from '@compiel/ui/form';
+import { Slider } from '@compiel/ui/slider';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Loader2 } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';

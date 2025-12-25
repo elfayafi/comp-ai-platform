@@ -1,8 +1,8 @@
 'use client';
 
-import { Alert, AlertDescription, AlertTitle } from '@comp/ui/alert';
-import { Button } from '@comp/ui/button';
-import { Icons } from '@comp/ui/icons';
+import { Alert, AlertDescription, AlertTitle } from '@compiel/ui/alert';
+import { Button } from '@compiel/ui/button';
+import { Icons } from '@compiel/ui/icons';
 import type { User, Vendor } from '@db';
 import { PencilIcon } from 'lucide-react';
 import { useQueryState } from 'nuqs';

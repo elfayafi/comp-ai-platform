@@ -1,7 +1,7 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@comp/ui/card';
+import { Button } from '@compiel/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@compiel/ui/card';
 import type { GlobalVendors, Member, User, Vendor } from '@db';
 import { PencilIcon } from 'lucide-react';
 import { useQueryState } from 'nuqs';

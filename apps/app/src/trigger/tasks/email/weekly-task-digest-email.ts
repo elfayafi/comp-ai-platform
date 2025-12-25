@@ -1,7 +1,7 @@
 import { db } from '@db';
 import { logger, queue, task } from '@trigger.dev/sdk';
-import { sendWeeklyTaskDigestEmail } from '@trycompai/email/lib/weekly-task-digest';
-import { isUserUnsubscribed } from '@comp/email/lib/check-unsubscribe';
+import { sendWeeklyTaskDigestEmail } from '@compiel/email/lib/weekly-task-digest';
+import { isUserUnsubscribed } from '@compiel/email/lib/check-unsubscribe';
 
 // Queue with concurrency limit to prevent rate limiting
 const weeklyTaskDigestQueue = queue({

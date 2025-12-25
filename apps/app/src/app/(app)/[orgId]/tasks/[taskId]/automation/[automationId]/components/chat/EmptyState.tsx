@@ -6,9 +6,9 @@ import {
   PromptInputTextarea,
   PromptInputTools,
   usePromptInputController,
-} from '@comp/ui';
-import { Card, CardDescription, CardHeader } from '@comp/ui/card';
-import { Skeleton } from '@comp/ui/skeleton';
+} from '@compiel/ui';
+import { Card, CardDescription, CardHeader } from '@compiel/ui/card';
+import { Skeleton } from '@compiel/ui/skeleton';
 import { useState } from 'react';
 import { AUTOMATION_EXAMPLES, AutomationExample } from '../../constants/automation-examples';
 
@@ -33,7 +33,7 @@ function getVendorLogoUrl(vendorName?: string, vendorWebsite?: string): string {
   }
 
   if (!vendorName) {
-    return 'https://img.logo.dev/trycomp.ai?token=pk_AZatYxV5QDSfWpRDaBxzRQ';
+    return 'https://img.logo.dev/trycompiel.com?token=pk_AZatYxV5QDSfWpRDaBxzRQ';
   }
 
   // Try to extract domain from vendor name or use a default
@@ -60,7 +60,7 @@ function getVendorLogoUrl(vendorName?: string, vendorWebsite?: string): string {
     return `https://img.logo.dev/${urlMatch[1]}?token=pk_AZatYxV5QDSfWpRDaBxzRQ`;
   }
 
-  return 'https://img.logo.dev/trycomp.ai?token=pk_AZatYxV5QDSfWpRDaBxzRQ';
+  return 'https://img.logo.dev/trycompiel.com?token=pk_AZatYxV5QDSfWpRDaBxzRQ';
 }
 
 function VendorCard({
@@ -71,7 +71,7 @@ function VendorCard({
   onExampleClick: (prompt: string) => void;
 }) {
   const [imageError, setImageError] = useState(false);
-  const fallbackUrl = 'https://img.logo.dev/trycomp.ai?token=pk_AZatYxV5QDSfWpRDaBxzRQ';
+  const fallbackUrl = 'https://img.logo.dev/trycompiel.com?token=pk_AZatYxV5QDSfWpRDaBxzRQ';
   const imageUrl = imageError ? fallbackUrl : example.url;
 
   return (

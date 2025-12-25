@@ -1,4 +1,4 @@
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -7,7 +7,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@comp/ui/dialog';
+} from '@compiel/ui/dialog';
 import type { Control } from '@db';
 import { X } from 'lucide-react';
 import { useParams } from 'next/navigation';

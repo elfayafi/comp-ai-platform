@@ -1,7 +1,7 @@
 'use client';
 
-import { Card, CardContent, CardHeader, CardTitle } from '@comp/ui/card';
-import { Progress } from '@comp/ui/progress';
+import { Card, CardContent, CardHeader, CardTitle } from '@compiel/ui/card';
+import { Progress } from '@compiel/ui/progress';
 import { FrameworkInstance } from '@db';
 import { ComplianceProgressChart } from './ComplianceProgressChart';
 import { PeopleChart } from './PeopleChart';

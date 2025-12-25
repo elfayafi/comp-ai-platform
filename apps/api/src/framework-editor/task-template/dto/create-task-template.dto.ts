@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsNotEmpty, IsEnum } from 'class-validator';
-import { Frequency, Departments } from '@trycompai/db';
+import { Frequency, Departments } from '@compiel/db';
 
 export class CreateTaskTemplateDto {
   @ApiProperty({

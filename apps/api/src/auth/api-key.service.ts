@@ -1,5 +1,5 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { db } from '@trycompai/db';
+import { db } from '@compiel/db';
 import { createHash } from 'node:crypto';
 
 @Injectable()

@@ -1,7 +1,7 @@
 'use client';
 
-import { Button } from '@comp/ui/button';
-import { Textarea } from '@comp/ui/textarea';
+import { Button } from '@compiel/ui/button';
+import { Textarea } from '@compiel/ui/textarea';
 import { Save } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { toast } from 'sonner';

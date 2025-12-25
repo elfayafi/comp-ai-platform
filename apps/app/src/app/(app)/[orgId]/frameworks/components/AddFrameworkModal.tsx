@@ -11,15 +11,15 @@ import type { z } from 'zod';
 import { addFrameworksToOrganizationAction } from '@/actions/organization/add-frameworks-to-organization-action';
 import { addFrameworksSchema } from '@/actions/schema';
 import { FrameworkCard } from '@/components/framework-card';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   DialogContent,
   DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@comp/ui/form';
+} from '@compiel/ui/dialog';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@compiel/ui/form';
 import type { FrameworkEditorFramework } from '@db';
 
 type Props = {

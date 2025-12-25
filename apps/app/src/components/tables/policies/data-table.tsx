@@ -3,8 +3,8 @@
 import { flexRender, getCoreRowModel, useReactTable } from '@tanstack/react-table';
 import { Suspense } from 'react';
 
-import { cn } from '@comp/ui/cn';
-import { Table, TableBody, TableCell, TableRow } from '@comp/ui/table';
+import { cn } from '@compiel/ui/cn';
+import { Table, TableBody, TableCell, TableRow } from '@compiel/ui/table';
 import { type PolicyType, useColumns as getColumns } from './columns';
 import { DataTableHeader } from './data-table-header';
 import { DataTablePagination } from './data-table-pagination';

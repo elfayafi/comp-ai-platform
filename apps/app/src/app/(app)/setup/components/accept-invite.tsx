@@ -2,8 +2,8 @@
 
 import { completeInvitation } from '@/actions/organization/accept-invitation';
 import { authClient } from '@/utils/auth-client';
-import { Button } from '@comp/ui/button';
-import { Icons } from '@comp/ui/icons';
+import { Button } from '@compiel/ui/button';
+import { Icons } from '@compiel/ui/icons';
 import { Loader2 } from 'lucide-react';
 import { useAction } from 'next-safe-action/hooks';
 import Link from 'next/link';

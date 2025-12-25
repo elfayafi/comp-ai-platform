@@ -3,8 +3,8 @@
 import { DataTable } from '@/components/data-table/data-table';
 import { DataTableColumnHeader } from '@/components/data-table/data-table-column-header';
 import { useDataTable } from '@/hooks/use-data-table';
-import { Icons } from '@comp/ui/icons';
-import { Input } from '@comp/ui/input';
+import { Icons } from '@compiel/ui/icons';
+import { Input } from '@compiel/ui/input';
 import type {
   FrameworkEditorFramework,
   FrameworkEditorRequirement,

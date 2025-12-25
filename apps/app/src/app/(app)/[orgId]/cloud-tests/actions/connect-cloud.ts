@@ -1,7 +1,7 @@
 'use server';
 
 import { encrypt } from '@/lib/encryption';
-import { getIntegrationHandler } from '@comp/integrations';
+import { getIntegrationHandler } from '@compiel/integrations';
 import { db } from '@db';
 import { revalidatePath } from 'next/cache';
 import { cookies, headers } from 'next/headers';

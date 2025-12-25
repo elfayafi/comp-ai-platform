@@ -1,7 +1,7 @@
 'use client';
 
-import { cn } from '@comp/ui/cn';
-import { Progress } from '@comp/ui/progress';
+import { cn } from '@compiel/ui/cn';
+import { Progress } from '@compiel/ui/progress';
 import { AnimatePresence, motion } from 'framer-motion';
 import {
   AlertCircle,

@@ -9,12 +9,12 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from '@comp/ui/alert-dialog';
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { Card } from '@comp/ui';
-import { Input } from '@comp/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@comp/ui/select';
+} from '@compiel/ui/alert-dialog';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { Card } from '@compiel/ui';
+import { Input } from '@compiel/ui/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@compiel/ui/select';
 import { formatDistanceToNow } from 'date-fns';
 import { Building2, CheckCircle2, ChevronLeft, ChevronRight, FileSpreadsheet, FileText, Filter, Globe2, Loader2, Search, Trash2, X } from 'lucide-react';
 import { useRouter } from 'next/navigation';

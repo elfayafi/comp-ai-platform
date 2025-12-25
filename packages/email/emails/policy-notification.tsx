@@ -33,7 +33,7 @@ export const PolicyNotificationEmail = ({
   organizationId,
   notificationType,
 }: Props) => {
-  const link = `${process.env.NEXT_PUBLIC_PORTAL_URL ?? 'https://portal.trycomp.ai'}/${organizationId}`;
+  const link = `${process.env.NEXT_PUBLIC_PORTAL_URL ?? 'https://portal.trycompiel.com'}/${organizationId}`;
   const subjectText = 'Please review and accept this policy';
 
   const getBodyText = () => {
@@ -56,7 +56,7 @@ export const PolicyNotificationEmail = ({
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-400-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-400-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={400}
@@ -67,7 +67,7 @@ export const PolicyNotificationEmail = ({
             fontFamily="Geist"
             fallbackFontFamily="Helvetica"
             webFont={{
-              url: 'https://app.trycomp.ai/fonts/geist/geist-sans-latin-500-normal.woff2',
+              url: 'https://app.trycompiel.com/fonts/geist/geist-sans-latin-500-normal.woff2',
               format: 'woff2',
             }}
             fontWeight={500}

@@ -1,4 +1,4 @@
-import { cn } from '@comp/ui/cn';
+import { cn } from '@compiel/ui/cn';
 
 export const VENDOR_STATUS_TYPES = ['not_assessed', 'in_progress', 'assessed'] as const;
 

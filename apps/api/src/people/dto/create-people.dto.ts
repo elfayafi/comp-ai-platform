@@ -6,7 +6,7 @@ import {
   IsBoolean,
   IsNumber,
 } from 'class-validator';
-import { Departments } from '@trycompai/db';
+import { Departments } from '@compiel/db';
 
 export class CreatePeopleDto {
   @ApiProperty({

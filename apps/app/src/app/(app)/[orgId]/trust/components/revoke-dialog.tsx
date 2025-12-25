@@ -1,5 +1,5 @@
 import { useRevokeAccessGrant } from '@/hooks/use-access-requests';
-import { Button } from '@comp/ui/button';
+import { Button } from '@compiel/ui/button';
 import {
   Dialog,
   DialogContent,
@@ -7,9 +7,9 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@comp/ui/dialog';
-import { Field, FieldError, FieldLabel } from '@comp/ui/field';
-import { Textarea } from '@comp/ui/textarea';
+} from '@compiel/ui/dialog';
+import { Field, FieldError, FieldLabel } from '@compiel/ui/field';
+import { Textarea } from '@compiel/ui/textarea';
 import { useForm } from '@tanstack/react-form';
 import { toast } from 'sonner';
 import * as z from 'zod';

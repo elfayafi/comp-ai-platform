@@ -8,9 +8,9 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '@comp/ui/alert-dialog';
-import { Button } from '@comp/ui/button';
-import { cn } from '@comp/ui/cn';
+} from '@compiel/ui/alert-dialog';
+import { Button } from '@compiel/ui/button';
+import { cn } from '@compiel/ui/cn';
 import type { Attachment, AttachmentType } from '@db';
 import { Loader2, Trash2 } from 'lucide-react';
 import React from 'react';

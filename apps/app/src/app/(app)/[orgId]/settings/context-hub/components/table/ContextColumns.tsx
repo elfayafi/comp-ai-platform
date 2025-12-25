@@ -14,9 +14,9 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '@comp/ui/alert-dialog';
-import { Button } from '@comp/ui/button';
-import { Textarea } from '@comp/ui/textarea';
+} from '@compiel/ui/alert-dialog';
+import { Button } from '@compiel/ui/button';
+import { Textarea } from '@compiel/ui/textarea';
 import type { Context } from '@db';
 import type { ColumnDef } from '@tanstack/react-table';
 import { Check, Loader2, Pencil, Trash2 } from 'lucide-react';

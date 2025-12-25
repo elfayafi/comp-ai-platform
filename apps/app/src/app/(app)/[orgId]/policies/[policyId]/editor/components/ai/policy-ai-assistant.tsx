@@ -4,17 +4,17 @@ import {
   Conversation,
   ConversationContent,
   ConversationScrollButton,
-} from '@comp/ui/ai-elements/conversation';
+} from '@compiel/ui/ai-elements/conversation';
 import {
   PromptInput,
   PromptInputFooter,
   PromptInputSubmit,
   PromptInputTextarea,
-} from '@comp/ui/ai-elements/prompt-input';
-import { Tool, ToolHeader } from '@comp/ui/ai-elements/tool';
-import { Badge } from '@comp/ui/badge';
-import { Button } from '@comp/ui/button';
-import { cn } from '@comp/ui/cn';
+} from '@compiel/ui/ai-elements/prompt-input';
+import { Tool, ToolHeader } from '@compiel/ui/ai-elements/tool';
+import { Badge } from '@compiel/ui/badge';
+import { Button } from '@compiel/ui/button';
+import { cn } from '@compiel/ui/cn';
 import type { ChatStatus } from 'ai';
 import {
   ArrowDownIcon,

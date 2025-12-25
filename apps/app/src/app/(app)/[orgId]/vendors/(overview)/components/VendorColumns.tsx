@@ -1,7 +1,7 @@
 import { DataTableColumnHeader } from '@/components/data-table/data-table-column-header';
 import { VendorStatus } from '@/components/vendor-status';
-import { Avatar, AvatarFallback, AvatarImage } from '@comp/ui/avatar';
-import { Badge } from '@comp/ui/badge';
+import { Avatar, AvatarFallback, AvatarImage } from '@compiel/ui/avatar';
+import { Badge } from '@compiel/ui/badge';
 import type { ColumnDef, Row } from '@tanstack/react-table';
 import { Loader2, UserIcon } from 'lucide-react';
 import Link from 'next/link';

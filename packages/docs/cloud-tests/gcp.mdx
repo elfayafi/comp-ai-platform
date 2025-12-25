@@ -1,11 +1,11 @@
 ---
 title: "GCP Cloud Tests"
-description: "Connect Google Cloud Platform to Comp AI for cloud security testing"
+description: "Connect Google Cloud Platform to Compiel for cloud security testing"
 ---
 
 # Google Cloud Platform Cloud Test
 
-The Google Cloud Platform (GCP) Cloud Test allows you to connect your GCP projects to Comp AI for automated compliance monitoring, and risk assessment.
+The Google Cloud Platform (GCP) Cloud Test allows you to connect your GCP projects to Compiel for automated compliance monitoring, and risk assessment.
 
 ## Setup Process
 
@@ -14,7 +14,7 @@ The Google Cloud Platform (GCP) Cloud Test allows you to connect your GCP projec
 Before setting up the Cloud Test, ensure you have:
 
 1. GCP project with Owner or Editor access
-2. Admin access to your Comp AI workspace
+2. Admin access to your Compiel workspace
 3. Permissions to create service accounts
 
 <Note>
@@ -25,11 +25,11 @@ Before setting up the Cloud Test, ensure you have:
 
 ### Configuration Steps
 
-1. Navigate to **Cloud Tests** in your Comp AI dashboard
+1. Navigate to **Cloud Tests** in your Compiel dashboard
 2. Click on **Connect** next to the GCP integration card
 3. Link Service Account
    - In a Project, go to the [GCP Console → IAM & Admin → Service Accounts](https://console.cloud.google.com/iam-admin/serviceaccounts)
-   - Click **“Create Service Account”** and give it a name like `comp-ai-integration`
+   - Click **“Create Service Account”** and give it a name like `compiel-integration`
    - Click **Continue**, then grant the following roles:
      - `Security Center Findings Viewer` (`roles/securitycenter.findingsViewer`)
      - `Service Usage Consumer`
@@ -65,10 +65,10 @@ Before setting up the Cloud Test, ensure you have:
   style={{ width:"52%" }}
 />
 
-4. Add Credentials to GCP Cloud Test in Comp AI app
-   1. Copy & Paste the Organization Id (Not the project Id) from Google Cloud into the **Organization ID** field in the Comp AI connection form
+4. Add Credentials to GCP Cloud Test in Compiel app
+   1. Copy & Paste the Organization Id (Not the project Id) from Google Cloud into the **Organization ID** field in the Compiel connection form
    1. Open the downloaded JSON file, and copy its entire contents
-   2. Paste it into the **Service Account Key** field in the Comp AI connection form
+   2. Paste it into the **Service Account Key** field in the Compiel connection form
 
       <img
         src="/packages/docs/images/Screenshot2025-11-20at9.31.56AM.png"
@@ -110,7 +110,7 @@ The Cloud Test checks compliance against:
 
 ### Access Control
 
-Comp AI requires read-only access to your GCP environment. The Cloud Test uses a service account with specific IAM roles that follow the principle of least privilege.
+Compiel requires read-only access to your GCP environment. The Cloud Test uses a service account with specific IAM roles that follow the principle of least privilege.
 
 ### Permissions
 
@@ -143,6 +143,6 @@ The integration does NOT have permissions to:
 
 For additional assistance with your GCP integration:
 
-1. Check our [Knowledge Base](https://help.trycomp.ai/gcp-integration)
-2. Contact support at [support@trycomp.ai](mailto:support@trycomp.ai)
+1. Check our [Knowledge Base](https://help.trycompiel.com/gcp-integration)
+2. Contact support at [support@trycompiel.com](mailto:support@trycompiel.com)
 3. Join our [Discord community](https://discord.gg/compai) for peer support
