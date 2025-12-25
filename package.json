@@ -87,11 +87,14 @@
     "packages/*"
   ],
   "dependencies": {
+    "@prisma/adapter-pg": "^6.13.0",
     "@types/cheerio": "^1.0.0",
+    "@types/pg": "^8.11.10",
     "@types/react-syntax-highlighter": "^15.5.13",
     "@upstash/vector": "^1.2.2",
     "better-auth": "1.4.5",
     "cheerio": "^1.1.2",
+    "pg": "^8.13.1",
     "react-syntax-highlighter": "^15.6.6",
     "unpdf": "^1.4.0",
     "xlsx": "^0.18.5",
