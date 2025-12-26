@@ -5,11 +5,11 @@
   :root {
     /* Backgrounds & Foregrounds */
     --background: 0 0% 100%;
-    --foreground: 35 20% 15%;
+    --foreground: 0 0% 15%;
     --card: 0 0% 100%;
-    --card-foreground: 35 20% 15%;
+    --card-foreground: 0 0% 15%;
     --popover: 0 0% 100%;
-    --popover-foreground: 35 20% 15%;
+    --popover-foreground: 0 0% 15%;
 
     /* Primary - Warm Beige */
     --primary: 35 35% 65%;
@@ -19,13 +19,13 @@
 
     /* Secondary & Muted - Pure Grays */
     --secondary: 0 0% 98%;
-    --secondary-foreground: 35 20% 15%;
+    --secondary-foreground: 0 0% 15%;
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
     /* Accent */
     --accent: 0 0% 96%;
-    --accent-foreground: 35 20% 15%;
+    --accent-foreground: 0 0% 15%;
 
     /* Status Colors */
     --destructive: 0 84% 60%;
