@@ -22,8 +22,8 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
             style={{
               width: adornmentWidth,
               zIndex: 2,
-              borderTopLeftRadius: '0.125rem',
-              borderBottomLeftRadius: '0.125rem',
+              borderTopLeftRadius: '0.5rem',
+              borderBottomLeftRadius: '0.5rem',
             }}
           >
             {prefix}
@@ -40,11 +40,12 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
           autoComplete="off"
           data-lpignore="true"
           className={cn(
-            'border-input bg-background flex h-9 w-full rounded-sm border py-1 text-sm transition-colors',
-            'placeholder:text-muted-foreground file:text-foreground file:border-0 file:bg-transparent file:text-sm file:font-medium',
-            'focus-visible:ring-ring focus-visible:ring-1 focus-visible:ring-offset-0 focus-visible:outline-hidden',
-            'text-sm disabled:cursor-not-allowed disabled:opacity-50',
-            isPrefix ? 'pl-[90px]' : leftIcon ? 'pl-[36px]' : 'px-3',
+            'border-input bg-background flex h-10 w-full rounded-lg border-2 px-3.5 py-2 text-sm transition-all duration-200',
+            'placeholder:text-muted-foreground/60 file:text-foreground file:border-0 file:bg-transparent file:text-sm file:font-medium',
+            'focus-visible:ring-2 focus-visible:ring-primary/20 focus-visible:border-primary focus-visible:outline-hidden',
+            'hover:border-input/80 focus-visible:shadow-sm',
+            'disabled:cursor-not-allowed disabled:opacity-50 disabled:bg-secondary/50',
+            isPrefix ? 'pl-[90px]' : leftIcon ? 'pl-[36px]' : '',
           )}
           ref={ref}
           {...props}
