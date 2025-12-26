@@ -40,10 +40,10 @@
     --input: 216 14% 91%;
     --ring: 210 100% 48%;
 
-    /* Border Radius */
-    --radius: 0.5rem;
-    --radius-lg: 0.75rem;
-    --radius-sm: 0.25rem;
+    /* Border Radius - Minimal for Snowflake style */
+    --radius: 0.25rem;
+    --radius-lg: 0.375rem;
+    --radius-sm: 0.125rem;
 
     /* Chart Colors */
     --chart-primary: 210 100% 48%;
@@ -98,10 +98,10 @@
     --input: 217 19% 27%;
     --ring: 210 100% 56%;
 
-    /* Border Radius */
-    --radius: 0.5rem;
-    --radius-lg: 0.75rem;
-    --radius-sm: 0.25rem;
+    /* Border Radius - Minimal for Snowflake style */
+    --radius: 0.25rem;
+    --radius-lg: 0.375rem;
+    --radius-sm: 0.125rem;
 
     /* Chart Colors */
     --chart-primary: 210 100% 56%;
