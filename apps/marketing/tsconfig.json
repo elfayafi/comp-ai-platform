@@ -1,0 +1,18 @@
+{
+  "extends": "@compiel/tsconfig/nextjs.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@compiel/ui": ["../../packages/ui/src/components/index.ts"],
+      "@compiel/ui/*": ["../../packages/ui/src/components/*"],
+      "@compiel/ui/cn": ["../../packages/ui/src/utils/cn.ts"],
+      "@compiel/ui/globals.css": ["../../packages/ui/src/globals.css"],
+      "@compiel/analytics": ["../../packages/analytics/src/index.ts"],
+      "@compiel/email": ["../../packages/email/index.ts"],
+      "@compiel/db": ["../../packages/db/src/index.ts"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
