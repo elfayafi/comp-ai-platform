@@ -11,10 +11,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 15%;
 
-    /* Primary - Warm Beige */
-    --primary: 35 35% 65%;
-    --primary-light: 35 35% 95%;
-    --primary-hover: 35 40% 55%;
+    /* Primary - Professional Blue */
+    --primary: 217 83% 53%;
+    --primary-light: 217 83% 95%;
+    --primary-hover: 217 83% 45%;
     --primary-foreground: 0 0% 100%;
 
     /* Secondary & Muted - Pure Grays */
@@ -38,7 +38,7 @@
     /* Borders & Inputs */
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 35 35% 65%;
+    --ring: 217 83% 53%;
 
     /* Border Radius - Minimal for Snowflake style */
     --radius: 0.25rem;
@@ -46,12 +46,12 @@
     --radius-sm: 0.125rem;
 
     /* Chart Colors */
-    --chart-primary: 35 35% 65%;
+    --chart-primary: 217 83% 53%;
     --chart-positive: 142 71% 45%; /* Green: use for published, or reviewed = the items are in a good state */
     --chart-neutral: 38 92% 50%; /* Amber: use for draft(s) and actions that need reviewing soon */
     --chart-warning: 0 0% 53%; /* Gray: deleted, archived - states that have been closed */
     --chart-destructive: 0 84% 60%; /* Red: use for needs review, something that needs action immediately */
-    --chart-other: 35 40% 60%; /* Beige: use for other states */
+    --chart-other: 217 83% 65%; /* Blue: use for other states */
 
     --chart-closed: #16A34A;
     --chart-pending: #0BA5E9;
@@ -69,11 +69,11 @@
     --popover: 35 15% 16%;
     --popover-foreground: 0 0% 98%;
 
-    /* Primary - Warm Beige (Lighter for dark mode) */
-    --primary: 35 40% 70%;
-    --primary-light: 35 30% 25%;
-    --primary-hover: 35 45% 75%;
-    --primary-foreground: 35 20% 15%;
+    /* Primary - Professional Blue (Lighter for dark mode) */
+    --primary: 217 83% 60%;
+    --primary-light: 217 83% 20%;
+    --primary-hover: 217 83% 65%;
+    --primary-foreground: 0 0% 100%;
 
     /* Secondary & Muted - Dark Pure Grays */
     --secondary: 0 0% 20%;
@@ -96,7 +96,7 @@
     /* Borders & Inputs */
     --border: 0 0% 27%;
     --input: 0 0% 27%;
-    --ring: 35 40% 70%;
+    --ring: 217 83% 60%;
 
     /* Border Radius - Minimal for Snowflake style */
     --radius: 0.25rem;
@@ -104,12 +104,12 @@
     --radius-sm: 0.125rem;
 
     /* Chart Colors */
-    --chart-primary: 35 40% 70%;
+    --chart-primary: 217 83% 60%;
     --chart-positive: 142 71% 50%; /* Green: use for published, or reviewed = the items are in a good state */
     --chart-neutral: 38 92% 55%; /* Amber: use for draft(s) and actions that need reviewing soon */
     --chart-warning: 0 0% 60%; /* Gray: deleted, archived - states that have been closed */
     --chart-destructive: 0 84% 65%; /* Red: use for needs review, something that needs action immediately */
-    --chart-other: 35 45% 65%; /* Beige: use for other states */
+    --chart-other: 217 83% 70%; /* Blue: use for other states */
 
     --chart-closed: #22C55E;
     --chart-pending: #38BDF8;
