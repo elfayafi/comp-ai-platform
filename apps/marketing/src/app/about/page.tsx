@@ -1,16 +1,10 @@
 'use client';
 
-import { Metadata } from 'next';
 import { CTASection } from '@/components/sections/cta-section';
 import { Target, Users, Zap, Mail, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Card } from '@compiel/ui/card';
 import { Button } from '@compiel/ui/button';
-
-export const metadata: Metadata = {
-  title: 'About Us',
-  description: 'Learn about Compiel and our mission to make compliance accessible to every organization.',
-};
 
 const values = [
   {

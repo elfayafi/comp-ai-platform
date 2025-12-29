@@ -1,15 +1,9 @@
 'use client';
 
-import { Metadata } from 'next';
 import { ContactForm } from '@/components/forms/contact-form';
 import { Card } from '@compiel/ui/card';
 import { Mail, MessageSquare, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';
-
-export const metadata: Metadata = {
-  title: 'Contact Us',
-  description: 'Get in touch with our team. We typically respond within 2 hours.',
-};
 
 export default function ContactPage() {
   return (

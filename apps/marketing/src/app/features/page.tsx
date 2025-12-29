@@ -1,14 +1,8 @@
 'use client';
 
-import { Metadata } from 'next';
 import { CTASection } from '@/components/sections/cta-section';
 import { Zap, Eye, Brain, Shield, FileStack, Users, Cloud, Bell, Check, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
-
-export const metadata: Metadata = {
-  title: 'Features',
-  description: 'Discover how Compiel helps you achieve compliance 90% faster with AI-powered automation.',
-};
 
 const features = [
   {
