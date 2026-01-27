@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Button } from '@compiel/ui/button';
 import { Menu, X } from 'lucide-react';
 import { env } from '@/env.mjs';
+import { Logo } from '@/components/ui/logo';
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,8 +13,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur">
       <nav className="container flex h-16 items-center justify-between">
-        <Link href="/" className="text-xl font-bold">
-          Compiel
+        <Link href="/" className="flex items-center gap-2">
+          <Logo variant="primary" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}

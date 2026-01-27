@@ -11,7 +11,6 @@ import {
 import { headers } from 'next/headers';
 import Link from 'next/link';
 import { SignOut } from './sign-out';
-import { ThemeSwitch } from './theme-switch';
 
 export async function UserMenu({ onlySignOut, orgId }: { onlySignOut?: boolean; orgId?: string }) {
   const session = await auth.api.getSession({
@@ -52,11 +51,6 @@ export async function UserMenu({ onlySignOut, orgId }: { onlySignOut?: boolean; 
                 </div>
               </div>
             </DropdownMenuLabel>
-            <DropdownMenuSeparator />
-            <div className="flex flex-row items-center justify-between p-2">
-              <p className="text-sm">Theme</p>
-              <ThemeSwitch />
-            </div>
             <DropdownMenuSeparator />
             {orgId && (
               <DropdownMenuItem asChild>

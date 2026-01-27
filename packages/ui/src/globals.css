@@ -1,57 +1,70 @@
+/* Editorial Typography - Playfair Display Serif + Manrope Sans */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
 @import 'tailwindcss';
 @config "../tailwind.config.ts";
 
 @layer base {
   :root {
-    /* Backgrounds & Foregrounds */
+    /* Backgrounds & Foregrounds - Editorial Clean White */
     --background: 0 0% 100%;
-    --foreground: 0 0% 15%;
+    --foreground: 220 15% 10%;
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 15%;
+    --card-foreground: 220 15% 10%;
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 15%;
+    --popover-foreground: 220 15% 10%;
 
-    /* Primary - Professional Blue */
-    --primary: 217 83% 53%;
-    --primary-light: 217 83% 95%;
-    --primary-hover: 217 83% 45%;
+    /* Primary - Electric Blue */
+    --primary: 217 91% 60%;
+    --primary-light: 217 91% 96%;
+    --primary-hover: 217 91% 50%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary & Muted - Pure Grays */
-    --secondary: 0 0% 98%;
-    --secondary-foreground: 0 0% 15%;
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 45%;
+    /* Editorial Navy - Deep backgrounds */
+    --navy: 220 40% 15%;
+    --navy-light: 220 30% 25%;
+    --navy-foreground: 0 0% 98%;
+
+    /* Gold Accent - Premium trust signal */
+    --gold: 38 95% 58%;
+    --gold-light: 38 95% 95%;
+    --gold-foreground: 220 40% 15%;
+
+    /* Secondary & Muted */
+    --secondary: 0 0% 97%;
+    --secondary-foreground: 220 15% 10%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 220 10% 45%;
 
     /* Accent */
-    --accent: 0 0% 96%;
-    --accent-foreground: 0 0% 15%;
+    --accent: 217 91% 96%;
+    --accent-foreground: 217 91% 60%;
 
     /* Status Colors */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    --warning: 38 92% 50%;
-    --warning-foreground: 0 0% 100%;
+    --warning: 38 95% 58%;
+    --warning-foreground: 220 40% 15%;
     --success: 142 71% 45%;
     --success-foreground: 0 0% 100%;
 
-    /* Borders & Inputs */
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
-    --ring: 217 83% 53%;
+    /* Borders & Inputs - Subtle editorial */
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 217 91% 60%;
 
-    /* Border Radius - Minimal for Snowflake style */
-    --radius: 0.25rem;
-    --radius-lg: 0.375rem;
-    --radius-sm: 0.125rem;
+    /* Border Radius - Sharp editorial */
+    --radius: 0.125rem;
+    --radius-lg: 0.25rem;
+    --radius-sm: 0rem;
 
     /* Chart Colors */
-    --chart-primary: 217 83% 53%;
-    --chart-positive: 142 71% 45%; /* Green: use for published, or reviewed = the items are in a good state */
-    --chart-neutral: 38 92% 50%; /* Amber: use for draft(s) and actions that need reviewing soon */
-    --chart-warning: 0 0% 53%; /* Gray: deleted, archived - states that have been closed */
-    --chart-destructive: 0 84% 60%; /* Red: use for needs review, something that needs action immediately */
-    --chart-other: 217 83% 65%; /* Blue: use for other states */
+    --chart-primary: 217 91% 60%;
+    --chart-positive: 142 71% 45%;
+    --chart-neutral: 38 95% 58%;
+    --chart-warning: 0 0% 53%;
+    --chart-destructive: 0 84% 60%;
+    --chart-other: 217 91% 70%;
 
     --chart-closed: #16A34A;
     --chart-pending: #0BA5E9;
@@ -194,6 +207,67 @@
       hsl(var(--accent) / 30%) 60%,
       transparent 80%
     );
+  }
+
+  /* Editorial Design Utilities */
+  .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .font-sans-editorial {
+    font-family: 'Manrope', system-ui, sans-serif;
+  }
+
+  .text-navy {
+    color: hsl(var(--navy));
+  }
+
+  .bg-navy {
+    background-color: hsl(var(--navy));
+  }
+
+  .bg-navy-light {
+    background-color: hsl(var(--navy-light));
+  }
+
+  .text-gold {
+    color: hsl(var(--gold));
+  }
+
+  .bg-gold {
+    background-color: hsl(var(--gold));
+  }
+
+  .border-gold {
+    border-color: hsl(var(--gold));
+  }
+
+  .editorial-number {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: -0.03em;
+    line-height: 1;
+  }
+
+  .editorial-divider {
+    position: relative;
+  }
+
+  .editorial-divider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: hsl(var(--gold));
+  }
+
+  .noise-texture {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='4' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
   }
 }
 

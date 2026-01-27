@@ -13,7 +13,6 @@ import {
 import type { User } from 'better-auth';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-import { ThemeSwitch } from '../theme-switch';
 
 interface MinimalUserMenuProps {
   user: User;
@@ -63,11 +62,6 @@ export function MinimalUserMenu({ user }: MinimalUserMenuProps) {
             </div>
           </div>
         </DropdownMenuLabel>
-        <DropdownMenuSeparator />
-        <div className="flex flex-row items-center justify-between p-2">
-          <p className="text-sm">Theme</p>
-          <ThemeSwitch />
-        </div>
         <DropdownMenuSeparator />
         <DropdownMenuItem onClick={handleSignOut} disabled={isSigningOut}>
           {isSigningOut ? 'Signing out...' : 'Sign out'}

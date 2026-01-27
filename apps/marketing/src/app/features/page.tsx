@@ -133,7 +133,7 @@ export default function FeaturesPage() {
       </section>
 
       <section className="container pb-24 sm:pb-32">
-        <div className="space-y-32">
+        <div className="mx-auto max-w-6xl space-y-32">
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}
@@ -141,7 +141,7 @@ export default function FeaturesPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-100px' }}
               transition={{ duration: 0.6 }}
-              className={`grid gap-12 lg:grid-cols-2 lg:gap-20 items-center ${
+              className={`grid gap-16 lg:grid-cols-2 lg:gap-24 items-center ${
                 index % 2 === 1 ? 'lg:flex-row-reverse' : ''
               }`}
             >
